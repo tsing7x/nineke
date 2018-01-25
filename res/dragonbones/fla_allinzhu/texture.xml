@@ -1,0 +1,14 @@
+<TextureAtlas name="fla_allinzhu" imagePath="texture.png">
+ <SubTexture name="fla_allinzhu_huangsead" x="57" y="79" width="30" height="34"/>
+ <SubTexture name="fla_allinzhu_sdasd" x="0" y="0" width="293" height="78"/>
+ <SubTexture name="fla_allinzhu_sidai" x="401" y="70" width="30" height="35"/>
+ <SubTexture name="fla_allinzhu_sidai4" x="88" y="79" width="29" height="24"/>
+ <SubTexture name="fla_allinzhu_sidai6" x="490" y="51" width="15" height="23"/>
+ <SubTexture name="fla_allinzhu_sidai3" x="457" y="51" width="31" height="39"/>
+ <SubTexture name="fla_allinzhu_sidai2" x="119" y="79" width="26" height="27"/>
+ <SubTexture name="fla_allinzhu_guang" x="294" y="0" width="105" height="103"/>
+ <SubTexture name="fla_allinzhu_huangx" x="433" y="70" width="22" height="22"/>
+ <SubTexture name="fla_allinzhu_szxx" x="0" y="79" width="55" height="55"/>
+ <SubTexture name="fla_allinzhu_huangx2" x="401" y="0" width="54" height="68"/>
+ <SubTexture name="fla_allinzhu_hg" x="457" y="0" width="48" height="49"/>
+</TextureAtlas>

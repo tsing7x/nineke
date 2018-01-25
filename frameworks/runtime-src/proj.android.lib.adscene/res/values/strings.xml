@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boyaa_ad_download_texy">Download</string>
+    <string name="boyaa_ad_title_applist">Hot</string>
+    <string name="boyaa_ad_start_download_app">%s Downloading on backstage</string>
+    <string name="boyaa_ad_text_continue">Continue</string>
+    <string name="boyaa_ad_text_exit">Exit</string>
+
+    <string name="boyaa_ad_network_error">Poor connection,please check your internet</string>
+    <string name="boyaa_ad_no_ad_tip">See you tomorrow!</string>
+    <string name="boyaa_ad_float_text">Recommend</string>
+    <string name="boyaa_ad_install">Install</string>
+    <string name="boyaa_ad_get_faile">Claimed</string>
+    <string name="boyaa_ad_get_server_faile">Internet is not working well, please try later.</string>
+     <string name="boyaa_ad_task_undone">Your task isn\'t accomplished</string>
+</resources>
+
+
+
+

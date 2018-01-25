@@ -1,0 +1,285 @@
+songkran
+
+SongkranTaskPopup		日常任务界面
+SongkranFriendPopup		好友选择界面
+SongkranFriendListItem  好友item
+SongkranLotteryPopup    抽奖界面
+SongkranRankingPopup    排行榜界面
+
+songkran_gun
+songkran_ball
+songkran_basin
+
+songkran_friend_
+songkran_task_
+
+songkran_task_low_water
+songkran_task_mid_water
+songkran_task_hight_water
+songkran_task_water_
+songkran_task_elephant
+
+songkran_lottery_
+splash
+
+AVATAR_SIZE
+songkran_texture
+songkran_ranking_introduction_
+
+NORMALIMAGE
+SELECTEDIMAGE
+112 
+翻译：
+1. 当前蓄水值（{1}/1000）
+2. {1}蓄水值
+3. 身上携带钱不足，请充值后再进行抽奖
+4. {1}次
+5. 立即前往
+6. 未上榜
+7. 选择好友才可以泼水
+8. 最多选择三个好友
+9. 节日道具
+10. 去使用
+11. 节日道具数量不足，请通过节日活动获取
+12. 使用道具失败，请重试
+
+1. 当前蓄水值（{1}/1000）น้ำหยดตอนนี้ （{1}/1000）
+2. {1}蓄水值 น้ำ  {1} หยด
+3. 身上携带钱不足，请充值后再进行抽奖 ชิปมีไม่พอ กรุณาเติมชิปก่อนนะคะ
+4. {1}次  {1} ครั้ง
+5. 立即前往 ไปทันที
+6. 未上榜 ตกแรงค์กิ้ง
+7. 选择好友才可以泼水 กรุณาเลือกเพื่อนๆก่อนค่ะ
+8. 最多选择三个好友 สามารถเลือกเพื่อนได้มากสุด 3 ท่าน
+9. 节日道具 ไอเทมเทศกาล
+10. 去使用 ใช้ตอนนี้
+11. 节日道具数量不足，请通过节日活动获取 ไอเทมเทศกาลมีไม่พอ กรุณาร่วมกิจกรรมเทศกาลก่อนนะคะ
+12. 使用道具失败，请重试 ใช้ไอเทมล้มเหลว กรุณาลองใหม่อีกครี้งนะคะ 
+13. 暂无活动 ยังไม่มีกิจกรรม
+
+userinfo_holiday_prop
+
+很神奇的bug，必须2次update，才会显示，否则不调用createContent_
+    self.scrollView_:update()
+    self.scrollView_:update()
+	
+原因（还不确定，后期查看）：
+ScrollView:startScroll_() 触发 ScrollView:onScrolling()，item的lazyCreateContent方法由onScrolling调用
+
+最多选择三个好友
+
+songkran_hddj_
+
+泼水节动画
+每日玩牌
+10点蓄水值
+选择好友才可以泼水
+泼水抽奖界面
+删除fla_sunwukong互动道具相关资源和代码
+
+PHP接口：
+http://hy.oa.com/wiki/doku.php?id=9k:songkran
+
+客户端已做完接口：
+1.发送互动道具逻辑
+2.抽奖界面
+
+未完成：
+1. 其他房间，发送节日互动道具（只有骰子场不需要发送互动道具，其他都是同一个弹窗）
+2. 节日道具显示开关（还未做）O
+3. 水位显示标准 O
+4. 活动开关逻辑O
+
+
+动态礼物位置可能有偏差，需要先进行测试！！！！！
+动态礼物测试步骤：
+1.把zip文件放到\\192.168.100.133\wwwroot\w7poker_swf\apkft 目录下；
+2.在UserInfoPopup:addPropertyObservers_()接口里强制修改礼物url，设置为http://pirates133.by.com/w7poker_swf/apkft/XXX.zip格式；
+3.屏蔽以下代码：
+if ((nk.config.GIFT_SHOP_ENABLED) and (nk.userData.GIFT_SHOP == 1)) then
+	self.giftImageHandle_ = bm.DataProxy:addPropertyObserver(nk.dataKeys.USER_DATA, "user_gift", function (nextRwdLevel)
+		if self.giftUrlReqId_ then
+			LoadGiftControl:getInstance():cancel(self.giftUrlReqId_)
+		end
+		self.giftUrlReqId_ = LoadGiftControl:getInstance():getGiftUrlById(nk.userData.user_gift, function(url)
+			self.giftUrlReqId_ = nil
+			if url and string.len(url) > 5 then
+				self.giftImage_:onData(url, AnimationIcon.MAX_GIFT_DW, AnimationIcon.MAX_GIFT_DH)
+			end
+		end)
+	end)
+end
+
+新增以下代码：
+-- fla_daxiangp.zip?offy=5
+-- fla_jingyup.zip?offy=15
+-- fla_qiantingp.zip
+-- fla_shuiqiangbp.zip
+-- fla_shuiqiangp.zip
+-- fla_shuiqiup.zip
+self.giftUrlReqId_ = nil
+url = "http://pirates133.by.com/w7poker_swf/apkft/gift_test/fla_shuiqiangp.zip"
+if url and string.len(url) > 5 then
+	self.giftImage_:onData(url, AnimationIcon.MAX_GIFT_DW, AnimationIcon.MAX_GIFT_DH)
+end
+
+动态礼物(ZIP)，按实际情况配置参数
+guangong.zip?offx=-50&offy=50&scale=0.5&delay=2&speed=3&loop=10
+scale: 动画缩放比例 (常用到的属性，不配置客户端默认值为0.5)
+offx: 为x坐标的偏移量(常用到的属性，不配置客户端默认值为0)
+offy: 为y坐标的偏移量(常用到的属性，不配置客户端默认值为0)
+speed: 为动画播放用时(常用到的属性，不配置客户端默认值为2)
+loop: 为播放次数，0为重复播放(不常用到的属性，不配置客户端默认值0)
+delay: 延迟多久播放动画，-1为不延迟播放动画(不常用到的属性，不配置客户端默认值0)
+
+--礼物数据
+"loadImageTexture" = {
+1 = {
+
+    "expire"        = "7"
+
+    "ext_property"  = "0"
+
+    "gift_category" = "0"
+
+    "id"            = "7020"
+
+    "image"         = "http://pclptl9k02-static.boyaagame.com/static/nineke/nineke/gift/20160810145406-olympicbike.zip"
+
+    "money"         = "58000"
+
+    "name"          = "olympicbike"
+
+    "rankAll"       = "0"
+
+    "rankType"      = "0"
+
+    "status"        = "1"
+
+    "swf"           = ""
+
+    "time"          = "1470815649"
+
+    "zh_name"       = "奥运自行车"
+
+}
+
+2 = {
+
+    "expire"        = "7"
+
+    "ext_property"  = "2"
+
+    "gift_category" = "0"
+
+    "id"            = "7019"
+
+    "image"         = "http://pclptl9k02-static.boyaagame.com/static/nineke/nineke/gift/20160810082932-olympicbaseball.zip?offy=6"
+
+    "money"         = "60000"
+
+    "name"          = "olympicbaseball"
+
+    "rankAll"       = "0"
+
+    "rankType"      = "0"
+
+    "status"        = "1"
+
+    "swf"           = ""
+
+    "time"          = "1470792586"
+
+    "zh_name"       = "奥运棒球"
+
+}
+
+3 = {
+
+    "expire"        = "7"
+
+    "ext_property"  = "0"
+
+    "gift_category" = "0"
+
+    "id"            = "7018"
+
+    "image"         = "http://pclptl9k02-static.boyaagame.com/static/nineke/nineke/gift/20160809131310-olympicsailboat.zip"
+
+    "money"         = "50000"
+
+    "name"          = "olympicsailboat"
+
+    "rankAll"       = "0"
+
+    "rankType"      = "0"
+
+    "status"        = "1"
+
+    "swf"           = ""
+
+    "time"          = "1470723193"
+
+    "zh_name"       = "奥运帆船"
+
+}
+
+4 = {
+
+    "expire"        = "7"
+
+    "ext_property"  = "2"
+
+    "gift_category" = "0"
+
+    "id"            = "7017"
+
+    "image"         = "http://pclptl9k02-static.boyaagame.com/static/nineke/nineke/gift/20160809131147-nationflag.zip?offx=-40&offy=34"
+
+    "money"         = "80000"
+
+    "name"          = "nationflag"
+
+    "rankAll"       = "0"
+
+    "rankType"      = "0"
+
+    "status"        = "1"
+
+    "swf"           = ""
+
+    "time"          = "1470653928"
+
+    "zh_name"       = "泰国旗"
+
+}
+
+5 = {
+
+    "expire"        = "7"
+
+    "ext_property"  = "0"
+
+    "gift_category" = "0"
+
+    "id"            = "7016"
+
+    "image"         = "http://pclptl9k02-static.boyaagame.com/static/nineke/nineke/gift/20160809131158-olympictorch.zip"
+
+    "money"         = "60000"
+
+    "name"          = "olympictorch"
+
+    "rankAll"       = "0"
+
+    "rankType"      = "0"
+
+    "status"        = "1"
+
+    "swf"           = ""
+
+    "time"          = "1470653872"
+
+    "zh_name"       = "火炬"
+
+}

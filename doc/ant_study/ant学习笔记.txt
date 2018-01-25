@@ -1,0 +1,36 @@
+﻿<if condition="${isSayHello}">之前有定义过isSayHello属性且值为true
+	<then>
+		<echo>Hello</echo>
+	</then>
+</if>
+
+等价
+<if>
+	<condition property="isSayHello">property="isSayHello"可以省略
+		
+	</condition>
+	<then>
+		<echo>Hello</echo>
+	</then>
+</if>
+
+特性(property)在声明被赋值之后，其值是不可变的，在整个编译文件中将视为常量而非变量。Ant在构建过程中将对其第二次赋值视为无效;
+
+
+直接导入的文件内容格式
+
+<property file="res_03.1property.01.properties"/>
+<!-- 使用导入的特性 -->
+<echo message="${name3.1_web}"></echo>
+<echo message="${name3.1_im}"></echo>
+
+
+有时文件不存在于可直接访问的路径下，如文件被存于某个.jar 包中。则需要在特性中通过classpath指明.jar路径(相对于已经声明的basedir)，并以资源读取的方式将peoperty文件在jar内的完整包路径完整写出。
+
+<property classpath="properties.jar" 
+         resource="lab/sodino/res_03.1property.02.properties"/>
+<!-- 使用导入的特性 -->
+<echo message="${name3.2_machine}"></echo>
+<echo message="${name3.2_mobile}"></echo>
+
+将一个文件列表传递给外部可执行文件程序的特性问题，可以使用<apply>任务来解决，这个任务接受一个文件集并将其传递给指定的应用程序，既可以一次传完，也可以逐个传递。 

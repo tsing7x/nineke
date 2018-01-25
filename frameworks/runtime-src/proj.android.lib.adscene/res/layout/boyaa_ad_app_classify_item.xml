@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/rl_classify_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <FrameLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/fl_ad_iv_root"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_margin="2dp"
+                android:layout_gravity="center|bottom"
+                android:id="@+id/boyaa_ad_classify_iv_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+             />
+            <TextView 
+                android:id="@+id/boyaa_tv_ad_down_tip"
+                android:layout_gravity="right|bottom"
+                android:background="@drawable/boyaa_donw_tip_bg"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_classify_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:layout_below="@+id/fl_ad_iv_root"
+            android:singleLine="true"
+            android:textColor="#535354"
+             />
+        
+        <com.boyaa.boyaaad.widget.BoyaaProgress
+            android:layout_below="@+id/fl_ad_iv_root"
+            android:id="@+id/pr_ad_boyaa"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:layout_marginTop="3dp"
+            android:visibility="gone"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentBottom="true"
+            android:progressDrawable="@drawable/boyaa_ad_progress" />
+         <TextView
+              android:layout_below="@+id/fl_ad_iv_root"
+             android:visibility="gone"
+            android:id="@+id/tv_boyaa_install"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:background="@drawable/boyaa_ad_shape_btn"
+            android:singleLine="true"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="#ffffff"
+             />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="boyaa_ad_download_texy">Tải</string>
+    <string name="boyaa_ad_title_applist">Game hot</string>
+    <string name="boyaa_ad_start_download_app">%s Đang tải</string>
+    <string name="boyaa_ad_text_continue">Chơi tiếp</string>
+    <string name="boyaa_ad_text_exit">Đăng xuất</string>
+
+    <string name="boyaa_ad_network_error">Mạng xảy ra lỗi, bạn vui lòng thử lại</string>
+    <string name="boyaa_ad_no_ad_tip">Ngày mai quay lại bạn nhé!</string>
+    <string name="boyaa_ad_float_text">Game k</string>
+    <string name="boyaa_ad_install">cài đặt</string>
+     <string name="boyaa_ad_get_faile">Bạn đã rút thưởng thành công.</string>
+    <string name="boyaa_ad_get_server_faile">Mạng hơi bị chậm, bạn vui lòng thử lại sau.</string>
+     <string name="boyaa_ad_task_undone">Bạn chưa hoàn thành nhiệm vụ.</string>
+</resources>
+
+
+
+
+

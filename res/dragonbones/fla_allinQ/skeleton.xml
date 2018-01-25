@@ -1,0 +1,695 @@
+<dragonBones name="fla_allinQ" frameRate="60" version="2.3">
+  <armature name="fla_allinQ">
+    <bone name="allinQ_huangxss12">
+      <transform x="4.26" y="12.38" skX="0" skY="0" scX="2.75" scY="1.1"/>
+    </bone>
+    <bone name="allinQ_huangxss11">
+      <transform x="29.4" y="61.22" skX="180" skY="0" scX="0.17" scY="0.17"/>
+    </bone>
+    <bone name="allinQ_huangxss10">
+      <transform x="53.3" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxss9">
+      <transform x="-20.23" y="77.9" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxss8">
+      <transform x="-43.05" y="77.9" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxss7">
+      <transform x="-49.22" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxss6">
+      <transform x="44.17" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxss5">
+      <transform x="-31.08" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxss4">
+      <transform x="-16.57" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxss3">
+      <transform x="24.05" y="80.78" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxss2">
+      <transform x="31.38" y="80.78" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxss">
+      <transform x="45.85" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangxa28">
+      <transform x="-35.04" y="80.41" skX="0" skY="0" scX="0.52" scY="0.15"/>
+    </bone>
+    <bone name="allinQ_huangxshena">
+      <transform x="1.01" y="6.92" skX="0" skY="0" scX="1.01" scY="0.63"/>
+    </bone>
+    <bone name="allinQ_huangxa51">
+      <transform x="-36.13" y="-30.48" skX="180" skY="0" scX="0.11" scY="0.11"/>
+    </bone>
+    <bone name="allinQ_huangxa49">
+      <transform x="15.52" y="-55.5" skX="180" skY="0" scX="0.18" scY="0.18"/>
+    </bone>
+    <bone name="allinQ_huangx10">
+      <transform x="56.25" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2"/>
+    </bone>
+    <bone name="allinQ_huangx9">
+      <transform x="39.42" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2"/>
+    </bone>
+    <bone name="allinQ_huangx8">
+      <transform x="14.74" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2"/>
+    </bone>
+    <bone name="allinQ_huangx7">
+      <transform x="-36.73" y="-74.99" skX="180" skY="0" scX="0.12" scY="0.12"/>
+    </bone>
+    <bone name="allinQ_huangx6">
+      <transform x="1.5" y="-74.95" skX="180" skY="0" scX="0.2" scY="0.2"/>
+    </bone>
+    <bone name="allinQ_huangx5">
+      <transform x="-18.59" y="-76.86" skX="180" skY="0" scX="0.2" scY="0.2"/>
+    </bone>
+    <bone name="allinQ_huangx4">
+      <transform x="-19.3" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2"/>
+    </bone>
+    <bone name="allinQ_huangx3">
+      <transform x="24.65" y="-75.32" skX="180" skY="0" scX="0.2" scY="0.2"/>
+    </bone>
+    <bone name="allinQ_huangx22">
+      <transform x="32.58" y="-75.32" skX="180" skY="0" scX="0.2" scY="0.2"/>
+    </bone>
+    <bone name="allinQ_huangx2">
+      <transform x="48.25" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2"/>
+    </bone>
+    <bone name="allinQ_a28">
+      <transform x="-41.85" y="-76.86" skX="0" skY="0" scX="0.56" scY="0.3"/>
+    </bone>
+    <bone name="allinQ_allin">
+      <transform x="1.5" y="10.7" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="allinQ_kuangaq">
+      <transform x="0.97" y="0" skX="0" skY="0" scX="0.97" scY="0.93"/>
+    </bone>
+    <bone name="allinQ_kuangas">
+      <transform x="0.97" y="0" skX="0" skY="0" scX="0.97" scY="0.93"/>
+    </bone>
+    <bone name="allinQ_waikanuga">
+      <transform x="0.64" y="0" skX="0" skY="0" scX="0.97" scY="0.93"/>
+    </bone>
+    <bone name="allinQ_diban">
+      <transform x="1.01" y="-0.34" skX="0" skY="0" scX="1.2" scY="1.11"/>
+    </bone>
+    <bone name="allinQ_guanga">
+      <transform x="1.01" y="-0.34" skX="0" skY="0" scX="1.35" scY="1.3"/>
+    </bone>
+    <skin name="">
+      <slot name="allinQ_guanga" parent="allinQ_guanga" z="0">
+        <display name="fla_allinQ_diban" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="49.59" pY="73.38"/>
+        </display>
+      </slot>
+      <slot name="allinQ_diban" parent="allinQ_diban" z="1">
+        <display name="fla_allinQ_diban" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="49.59" pY="73.38"/>
+        </display>
+      </slot>
+      <slot name="allinQ_waikanuga" parent="allinQ_waikanuga" z="2">
+        <display name="fla_allinQ_waikanuga" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.46" pY="88.71"/>
+        </display>
+      </slot>
+      <slot name="allinQ_kuangas" parent="allinQ_kuangas" z="3">
+        <display name="fla_allinQ_kuanga" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="58.72" pY="84.97"/>
+        </display>
+      </slot>
+      <slot name="allinQ_kuangaq" parent="allinQ_kuangaq" z="4">
+        <display name="fla_allinQ_kuanga" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="58.72" pY="84.97"/>
+        </display>
+      </slot>
+      <slot name="allinQ_allin" parent="allinQ_allin" z="5">
+        <display name="fla_allinQ_allin" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="202.93" pY="53.78"/>
+        </display>
+      </slot>
+      <slot name="allinQ_a28" parent="allinQ_a28" z="6">
+        <display name="fla_allinQ_hg" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.95" pY="18.33"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx2" parent="allinQ_huangx2" z="8">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx22" parent="allinQ_huangx22" z="9">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx3" parent="allinQ_huangx3" z="10">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx4" parent="allinQ_huangx4" z="11">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx5" parent="allinQ_huangx5" z="12">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx6" parent="allinQ_huangx6" z="13">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx7" parent="allinQ_huangx7" z="14">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx8" parent="allinQ_huangx8" z="15">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx9" parent="allinQ_huangx9" z="16">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangx10" parent="allinQ_huangx10" z="17">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxa49" parent="allinQ_huangxa49" z="18">
+        <display name="fla_allinQ_hg" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.95" pY="18.33"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxa51" parent="allinQ_huangxa51" z="19">
+        <display name="fla_allinQ_hg" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.95" pY="18.33"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxshena" parent="allinQ_huangxshena" z="20">
+        <display name="fla_allinQ_diban" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="49.59" pY="73.38"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxa28" parent="allinQ_huangxa28" z="21">
+        <display name="fla_allinQ_hg" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.95" pY="18.33"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss" parent="allinQ_huangxss" z="22">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss2" parent="allinQ_huangxss2" z="23">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss3" parent="allinQ_huangxss3" z="24">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss4" parent="allinQ_huangxss4" z="25">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss5" parent="allinQ_huangxss5" z="26">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss6" parent="allinQ_huangxss6" z="27">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss7" parent="allinQ_huangxss7" z="28">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss8" parent="allinQ_huangxss8" z="29">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss9" parent="allinQ_huangxss9" z="30">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss10" parent="allinQ_huangxss10" z="31">
+        <display name="fla_allinQ_huangx2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.2" pY="25.43"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss11" parent="allinQ_huangxss11" z="32">
+        <display name="fla_allinQ_hg" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.95" pY="18.33"/>
+        </display>
+      </slot>
+      <slot name="allinQ_huangxss12" parent="allinQ_huangxss12" z="33">
+        <display name="fla_allinQ_shg" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.95" pY="18.33"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="play" fadeInTime="0" duration="58" scale="2.5" loop="1" tweenEasing="NaN">
+      <timeline name="allinQ_guanga" scale="1" offset="0">
+        <frame z="0" tweenEasing="0" duration="3">
+          <transform x="1.01" y="-0.34" skX="0" skY="0" scX="1.35" scY="1.3" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="0" tweenEasing="0" duration="3">
+          <transform x="1.01" y="-0.34" skX="0" skY="0" scX="1.07" scY="1.03" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" tweenEasing="0" duration="13">
+          <transform x="1.01" y="-0.34" skX="0" skY="0" scX="1.07" scY="1.03" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="49" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="0" duration="1">
+          <transform x="0" y="0" skX="0" skY="0" scX="0.98" scY="0.93" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="38" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_diban" scale="1" offset="0">
+        <frame duration="3" displayIndex="-1"/>
+        <frame z="1" tweenEasing="0" duration="9">
+          <transform x="1.01" y="-0.34" skX="0" skY="0" scX="1.2" scY="1.11" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="49" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="1" duration="1">
+          <transform x="1.01" y="-0.34" skX="0" skY="0" scX="1.24" scY="1.16" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="45" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_waikanuga" scale="1" offset="0">
+        <frame duration="14" displayIndex="-1"/>
+        <frame z="2" tweenEasing="0" duration="8">
+          <transform x="0.64" y="0" skX="0" skY="0" scX="0.97" scY="0.93" pX="0" pY="0"/>
+        </frame>
+        <frame z="2" tweenEasing="0" duration="5">
+          <transform x="0.64" y="0" skX="0" skY="0" scX="1.01" scY="0.98" pX="0" pY="0"/>
+        </frame>
+        <frame z="2" tweenEasing="0" duration="14">
+          <transform x="0.64" y="0" skX="0" skY="0" scX="1.03" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="2" tweenEasing="0" duration="16">
+          <transform x="0.64" y="0" skX="0" skY="0" scX="1.03" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="2" duration="1">
+          <transform x="0.64" y="0" skX="0" skY="0" scX="0.97" scY="0.93" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+      </timeline>
+      <timeline name="allinQ_kuangas" scale="1" offset="0">
+        <frame duration="3" displayIndex="-1"/>
+        <frame z="3" tweenEasing="0" duration="5">
+          <transform x="0.97" y="0" skX="0" skY="0" scX="0.97" scY="0.93" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="3" duration="6">
+          <transform x="0.97" y="0" skX="0" skY="0" scX="0.97" scY="0.93" pX="0" pY="0"/>
+        </frame>
+        <frame z="3" tweenEasing="0" duration="13">
+          <transform x="0.97" y="0" skX="0" skY="0" scX="0.97" scY="0.93" pX="0" pY="0"/>
+        </frame>
+        <frame z="3" tweenEasing="0" duration="14">
+          <transform x="0.97" y="0" skX="0" skY="0" scX="0.97" scY="0.93" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="37" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="3" tweenEasing="0" duration="16">
+          <transform x="0.97" y="0" skX="0" skY="0" scX="0.97" scY="0.93" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="37" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="3" tweenEasing="0" duration="1">
+          <transform x="0.97" y="0" skX="0" skY="0" scX="0.97" scY="0.93" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+      </timeline>
+      <timeline name="allinQ_kuangaq" scale="1" offset="0">
+        <frame duration="8" displayIndex="-1"/>
+        <frame z="4" tweenEasing="0" duration="11">
+          <transform x="0.97" y="0" skX="0" skY="0" scX="0.97" scY="0.93" pX="0" pY="0"/>
+        </frame>
+        <frame z="4" duration="1">
+          <transform x="0.97" y="0" skX="0" skY="0" scX="1.06" scY="1.01" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="38" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_allin" scale="1" offset="0">
+        <frame duration="3" displayIndex="-1"/>
+        <frame z="5" tweenEasing="0" duration="6">
+          <transform x="1.5" y="10.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="5" tweenEasing="0" duration="3">
+          <transform x="1.5" y="10.7" skX="0" skY="0" scX="0.32" scY="0.32" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" tweenEasing="0" duration="15">
+          <transform x="1.5" y="10.7" skX="0" skY="0" scX="0.35" scY="0.35" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" tweenEasing="0" duration="5">
+          <transform x="1.5" y="10.7" skX="0" skY="0" scX="0.35" scY="0.35" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" duration="1">
+          <transform x="1.5" y="10.7" skX="0" skY="0" scX="0.61" scY="0.35" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="25" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_a28" scale="1" offset="0">
+        <frame duration="4" displayIndex="-1"/>
+        <frame z="6" tweenEasing="0" duration="10">
+          <transform x="-41.85" y="-76.86" skX="0" skY="0" scX="0.56" scY="0.3" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="6" tweenEasing="0" duration="9">
+          <transform x="-18.59" y="-76.86" skX="0" skY="0" scX="1.61" scY="0.3" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" tweenEasing="0" duration="6">
+          <transform x="13.35" y="-76.86" skX="0" skY="0" scX="1.4" scY="0.3" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" duration="1">
+          <transform x="37.81" y="-76.86" skX="0" skY="0" scX="0.89" scY="0.3" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="3" displayIndex="-1"/>
+        <frame z="7" tweenEasing="0" duration="6">
+          <transform x="47.91" y="88.15" skX="0" skY="180" scX="0.56" scY="0.34" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="7" tweenEasing="0" duration="10">
+          <transform x="24.65" y="88.15" skX="0" skY="180" scX="1.61" scY="0.34" pX="0" pY="0"/>
+        </frame>
+        <frame z="7" tweenEasing="0" duration="7">
+          <transform x="-7.29" y="88.15" skX="0" skY="180" scX="1.4" scY="0.34" pX="0" pY="0"/>
+        </frame>
+        <frame z="7" duration="1">
+          <transform x="-36.2" y="88.15" skX="0" skY="180" scX="1.23" scY="0.34" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx2" scale="1" offset="0">
+        <frame duration="4" displayIndex="-1"/>
+        <frame z="8" tweenEasing="0" duration="27">
+          <transform x="48.25" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+        </frame>
+        <frame z="8" duration="1">
+          <transform x="48.25" y="-95.89" skX="180" skY="180" scX="0.01" scY="0.01" pX="0" pY="0"/>
+        </frame>
+        <frame duration="26" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx22" scale="1" offset="0">
+        <frame duration="6" displayIndex="-1"/>
+        <frame z="9" tweenEasing="0" duration="31">
+          <transform x="32.58" y="-75.32" skX="180" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+        </frame>
+        <frame z="9" duration="1">
+          <transform x="32.58" y="-86.54" skX="14.98" skY="-165.02" scX="0.01" scY="0.01" pX="0" pY="0"/>
+        </frame>
+        <frame duration="20" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx3" scale="1" offset="0">
+        <frame duration="13" displayIndex="-1"/>
+        <frame z="10" tweenEasing="0" duration="30">
+          <transform x="24.65" y="-75.32" skX="180" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+        </frame>
+        <frame z="10" duration="1">
+          <transform x="24.65" y="-97.76" skX="14.99" skY="-165.01" scX="0.04" scY="0.04" pX="0" pY="0"/>
+        </frame>
+        <frame duration="14" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx4" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="11" tweenEasing="0" duration="32">
+          <transform x="-19.3" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+        </frame>
+        <frame z="11" duration="1">
+          <transform x="-19.3" y="-114.59" skX="15.02" skY="-164.98" scX="0.01" scY="0.01" pX="0" pY="0"/>
+        </frame>
+        <frame duration="15" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx5" scale="1" offset="0">
+        <frame duration="8" displayIndex="-1"/>
+        <frame z="12" tweenEasing="0" duration="31">
+          <transform x="-18.59" y="-76.86" skX="180" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+        </frame>
+        <frame z="12" duration="1">
+          <transform x="-18.59" y="-103.04" skX="15" skY="-165" scX="0.05" scY="0.05" pX="0" pY="0"/>
+        </frame>
+        <frame duration="18" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx6" scale="1" offset="0">
+        <frame duration="7" displayIndex="-1"/>
+        <frame z="13" tweenEasing="0" duration="34">
+          <transform x="1.5" y="-74.95" skX="180" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+        </frame>
+        <frame z="13" duration="1">
+          <transform x="1.5" y="-97.39" skX="15" skY="-165" scX="0.04" scY="0.04" pX="0" pY="0"/>
+        </frame>
+        <frame duration="16" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx7" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="14" tweenEasing="0" duration="22">
+          <transform x="-36.73" y="-74.99" skX="180" skY="0" scX="0.12" scY="0.12" pX="0" pY="0"/>
+        </frame>
+        <frame z="14" duration="1">
+          <transform x="-36.73" y="-95.93" skX="45" skY="-135" scX="0.03" scY="0.03" pX="0" pY="0"/>
+        </frame>
+        <frame duration="25" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx8" scale="1" offset="0">
+        <frame duration="4" displayIndex="-1"/>
+        <frame z="15" tweenEasing="0" duration="22">
+          <transform x="14.74" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+        </frame>
+        <frame z="15" duration="1">
+          <transform x="14.74" y="-107.11" skX="-164.99" skY="-164.99" scX="0.02" scY="0.02" pX="0" pY="0"/>
+        </frame>
+        <frame duration="31" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx9" scale="1" offset="0">
+        <frame duration="8" displayIndex="-1"/>
+        <frame z="16" tweenEasing="0" duration="20">
+          <transform x="39.42" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+        </frame>
+        <frame z="16" duration="1">
+          <transform x="39.42" y="-117.02" skX="15" skY="-165" scX="0.08" scY="0.08" pX="0" pY="0"/>
+        </frame>
+        <frame duration="29" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangx10" scale="1" offset="0">
+        <frame duration="4" displayIndex="-1"/>
+        <frame z="17" tweenEasing="0" duration="20">
+          <transform x="56.25" y="-73.45" skX="180" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+        </frame>
+        <frame z="17" duration="1">
+          <transform x="56.29" y="-105.65" skX="60.01" skY="-119.99" scX="0.03" scY="0.03" pX="0" pY="0"/>
+        </frame>
+        <frame duration="33" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxa49" scale="1" offset="0">
+        <frame duration="3" displayIndex="-1"/>
+        <frame z="18" tweenEasing="0" duration="27">
+          <transform x="15.52" y="-55.5" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="18" duration="1">
+          <transform x="15.52" y="-85.46" skX="60" skY="-120" scX="0.06" scY="0.06" pX="0" pY="0"/>
+        </frame>
+        <frame duration="27" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxa51" scale="1" offset="0">
+        <frame duration="3" displayIndex="-1"/>
+        <frame z="19" tweenEasing="0" duration="35">
+          <transform x="-36.13" y="-30.48" skX="180" skY="0" scX="0.11" scY="0.11" pX="0" pY="0"/>
+        </frame>
+        <frame z="19" duration="1">
+          <transform x="-36.13" y="-64.14" skX="15" skY="-165" scX="0.04" scY="0.04" pX="0" pY="0"/>
+        </frame>
+        <frame duration="19" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxshena" scale="1" offset="0">
+        <frame duration="6" displayIndex="-1"/>
+        <frame z="20" tweenEasing="0" duration="4">
+          <transform x="1.01" y="6.92" skX="0" skY="0" scX="1.01" scY="0.63" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="20" tweenEasing="0" duration="7">
+          <transform x="1.01" y="6.92" skX="0" skY="0" scX="1.01" scY="0.63" pX="0" pY="0"/>
+        </frame>
+        <frame z="20" duration="1">
+          <transform x="1.01" y="6.92" skX="0" skY="0" scX="1.15" scY="0.72" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="40" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxa28" scale="1" offset="0">
+        <frame duration="4" displayIndex="-1"/>
+        <frame z="21" tweenEasing="0" duration="10">
+          <transform x="-35.04" y="80.41" skX="0" skY="0" scX="0.52" scY="0.15" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="21" tweenEasing="0" duration="9">
+          <transform x="-13.54" y="80.41" skX="0" skY="0" scX="1.48" scY="0.15" pX="0" pY="0"/>
+        </frame>
+        <frame z="21" tweenEasing="0" duration="6">
+          <transform x="15.97" y="80.41" skX="0" skY="0" scX="1.29" scY="0.15" pX="0" pY="0"/>
+        </frame>
+        <frame z="21" duration="1">
+          <transform x="42.71" y="80.41" skX="0" skY="0" scX="1.14" scY="0.15" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="28" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss" scale="1" offset="0">
+        <frame duration="4" displayIndex="-1"/>
+        <frame z="22" tweenEasing="0" duration="27">
+          <transform x="45.85" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="22" duration="1">
+          <transform x="45.85" y="61.78" skX="180" skY="180" scX="0.01" scY="0.01" pX="0" pY="0"/>
+        </frame>
+        <frame duration="26" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss2" scale="1" offset="0">
+        <frame duration="6" displayIndex="-1"/>
+        <frame z="23" tweenEasing="0" duration="31">
+          <transform x="31.38" y="80.78" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="23" duration="1">
+          <transform x="31.38" y="70.42" skX="14.95" skY="-165.05" scX="0.01" scY="0.01" pX="0" pY="0"/>
+        </frame>
+        <frame duration="20" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss3" scale="1" offset="0">
+        <frame duration="13" displayIndex="-1"/>
+        <frame z="24" tweenEasing="0" duration="30">
+          <transform x="24.05" y="80.78" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="24" duration="1">
+          <transform x="24.05" y="60.03" skX="14.99" skY="-165.01" scX="0.04" scY="0.04" pX="0" pY="0"/>
+        </frame>
+        <frame duration="14" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss4" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="25" tweenEasing="0" duration="32">
+          <transform x="-16.57" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" duration="1">
+          <transform x="-16.57" y="44.51" skX="15" skY="-165" scX="0.01" scY="0.01" pX="0" pY="0"/>
+        </frame>
+        <frame duration="15" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss5" scale="1" offset="0">
+        <frame duration="8" displayIndex="-1"/>
+        <frame z="26" tweenEasing="0" duration="31">
+          <transform x="-31.08" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="26" duration="1">
+          <transform x="-31.08" y="58.34" skX="14.99" skY="-165.01" scX="0.05" scY="0.05" pX="0" pY="0"/>
+        </frame>
+        <frame duration="18" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss6" scale="1" offset="0">
+        <frame duration="7" displayIndex="-1"/>
+        <frame z="27" tweenEasing="0" duration="34">
+          <transform x="44.17" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="27" duration="1">
+          <transform x="44.17" y="61.78" skX="15.01" skY="-164.99" scX="0.04" scY="0.04" pX="0" pY="0"/>
+        </frame>
+        <frame duration="16" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss7" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="28" tweenEasing="0" duration="22">
+          <transform x="-49.22" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="28" duration="1">
+          <transform x="-49.22" y="51.43" skX="45" skY="-135" scX="0.05" scY="0.05" pX="0" pY="0"/>
+        </frame>
+        <frame duration="25" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss8" scale="1" offset="0">
+        <frame duration="4" displayIndex="-1"/>
+        <frame z="29" tweenEasing="0" duration="22">
+          <transform x="-43.05" y="77.9" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="29" duration="1">
+          <transform x="-43.05" y="46.79" skX="-165.02" skY="-165.02" scX="0.02" scY="0.02" pX="0" pY="0"/>
+        </frame>
+        <frame duration="31" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss9" scale="1" offset="0">
+        <frame duration="8" displayIndex="-1"/>
+        <frame z="30" tweenEasing="0" duration="20">
+          <transform x="-20.23" y="77.9" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="30" duration="1">
+          <transform x="-20.23" y="37.62" skX="15.01" skY="-164.99" scX="0.07" scY="0.07" pX="0" pY="0"/>
+        </frame>
+        <frame duration="29" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss10" scale="1" offset="0">
+        <frame duration="4" displayIndex="-1"/>
+        <frame z="31" tweenEasing="0" duration="20">
+          <transform x="53.3" y="82.54" skX="180" skY="0" scX="0.18" scY="0.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="31" duration="1">
+          <transform x="53.33" y="52.77" skX="60.03" skY="-119.97" scX="0.03" scY="0.03" pX="0" pY="0"/>
+        </frame>
+        <frame duration="33" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss11" scale="1" offset="0">
+        <frame duration="3" displayIndex="-1"/>
+        <frame z="32" tweenEasing="0" duration="27">
+          <transform x="29.4" y="61.22" skX="180" skY="0" scX="0.17" scY="0.17" pX="0" pY="0"/>
+        </frame>
+        <frame z="32" duration="1">
+          <transform x="29.4" y="33.51" skX="59.99" skY="-120.01" scX="0.05" scY="0.05" pX="0" pY="0"/>
+        </frame>
+        <frame duration="27" displayIndex="-1"/>
+      </timeline>
+      <timeline name="allinQ_huangxss12" scale="1" offset="0">
+        <frame duration="9" displayIndex="-1"/>
+        <frame z="33" tweenEasing="0" duration="3">
+          <transform x="4.26" y="12.38" skX="0" skY="0" scX="2.75" scY="1.1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="255" gO="255" bO="255" aM="100" rM="0" gM="0" bM="0"/>
+        </frame>
+        <frame z="33" tweenEasing="0" duration="5">
+          <transform x="4.26" y="12.38" skX="0" skY="0" scX="5.09" scY="2.05" pX="0" pY="0"/>
+        </frame>
+        <frame z="33" tweenEasing="0" duration="1">
+          <transform x="4.34" y="12.34" skX="0" skY="0" scX="5.87" scY="2.36" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="17" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="33" duration="1">
+          <transform x="4.26" y="12.38" skX="0" skY="0" scX="6.03" scY="2.42" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="39" displayIndex="-1"/>
+      </timeline>
+    </animation>
+  </armature>
+</dragonBones>

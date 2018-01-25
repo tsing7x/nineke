@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>th</key>
+	<dict>
+		<key>cancel</key>
+		<string>ยกเลิก</string>
+		<key>confirm</key>
+		<string>ยืนยัน</string>
+		<key>hint_serial</key>
+		<string>หมายเลขซีเรียล</string>
+		<key>hint_phone</key>
+		<string>โปรดกรอกหมายเลขโทรศัพท์{}ของคุณ.</string>
+		<key>tips_cofirmation_code</key>
+		<string>กรุณาตอบกลับรหัสยืนยันเมื่อคุณได้รับ.</string>
+		<key>tips_sdk_not_init</key>
+		<string>SDK เอสดีเคยังไม่เริ่มต้น โปรดทำการเริ่มต้นแล้วลองใหม่อีกครั้ง.</string>
+		<key>tips_price_error</key>
+		<string> ราคาไม่ถูกต้อง.</string>
+		<key>tips_no_phone</key>
+		<string>ERROR:หมายเลขโทรศัพท์ไม่สามารถว่างเปล่าได้.</string>
+		<key>tips_no_sim</key>
+		<string>ERROR:ไม่มีซิมหรือซิมไม่รองรับ. </string>
+		<key>tips_bk_not_support</key>
+		<string>ERROR:มีข้อผิดพลาด ซิมของคุณไม่รองรับการชำระช่องทางนี้.</string>
+		<key>tips_line_not_install</key>
+		<string>ไม่ค้นพบไลน์ทุกคุณหา โปรดทำการติดตั้งแล้วลองใหม่อีกครั้ง.</string>
+		<key>tips_user_cancel</key>
+		<string>ยกเลิกชำระเงินรายการนี้.</string>
+		<key>tips_params_error</key>
+		<string>ERROR:มีข้อผิดพลาด พารามิเตอร์ไม่สามารถเป็นค่าวางได้.</string>
+		<key>tips_sec_pay</key>
+		<string>คุณต้องการชำระหรือไม่ ?</string>
+		<key>tips_input_phone_error</key>
+		<string>เบอร์นี้ไม่ใช่เบอร์เอไอเอส</string>
+		<key>tips_hw_reply_code</key>
+		<string>โปรดตอบกลับรหัสยืนยัน เมื่อคุณได้รับ พื่อสิ้นสุดการชำระรายการนี้.</string>
+		<key>l_price</key>
+		<string>ราคา</string>
+		<key>l_channel</key>
+		<string>ช่องทาง:</string>
+		<key>l_transaction_id</key>
+		<string>เลขที่มีการทำรายการ:</string>
+		<key>l_payment_code</key>
+		<string>โค้ดชำระเงิน</string>
+		<key>btn_how_to</key>
+		<string>อย่างไร?&gt;&gt;</string>
+		<key>btn_knew</key>
+		<string>ฉันเข้าใจ</string>
+		<key>btn_send</key>
+		<string>ส่ง</string>
+		<key>tf_serial_no</key>
+		<string>หมายเลขซีเรียล.</string>
+		<key>tf_card_no</key>
+		<string>หมายเลขบัตร.</string>
+		<key>tips_pay_delay</key>
+		<string>Tการชำระเงินนี้อาจจะมีความล่าช้า โปรดรอ.</string>
+		<key>tips_offline</key>
+		<string>กรุณาไปที่ตู้เอทีเอ็มเพื่อสิ้นสุดการชำระเงินนี้.</string>
+		<key>tips_net_error</key>
+		<string>เครือข่ายมีข้อผิดพลาด โปรดทำการตรวจสอบเครือข่ายของคุณ.</string>
+		<key>tips_init_error0</key>
+		<string>Please check if the productId is match your key.</string>
+		<key>tips_param_error</key>
+		<string>โปรดทำการตรวจสอบพารามิเตอร์สำหรับอินเทอร์เฟชนี้.</string>
+		<key>tips_sms_not_support</key>
+		<string>Current device don&apos;t support pay by sms.</string>
+	</dict>
+	<key>vn</key>
+	<dict>
+		<key>cancel</key>
+		<string>Hủy</string>
+		<key>confirm</key>
+		<string>Xác nhận</string>
+		<key>hint_serial</key>
+		<string>Số Seri:</string>
+		<key>hint_phone</key>
+		<string>Hãy nhập số {} của bạn.</string>
+		<key>tips_cofirmation_code</key>
+		<string>Vui lòng nhập mã xác nhận.</string>
+		<key>tips_sdk_not_init</key>
+		<string>SDK haven&apos;t initialized,please initialize then try again.</string>
+		<key>tips_price_error</key>
+		<string>Nhắc nhở: giá vật phẩm không đúng.</string>
+		<key>tips_no_phone</key>
+		<string>Nhắc nhở: không được để trống số điện thoại.</string>
+		<key>tips_no_sim</key>
+		<string>Nhắc nhở: không có SIM hoặc SIM không đạt yêu cầu.</string>
+		<key>tips_bk_not_support</key>
+		<string>Nhắc nhở: SIM của bạn không đủ điều kiện thanh toán.</string>
+		<key>tips_line_not_install</key>
+		<string>Không tìm thấy LINE, vui lòng cài đặt và thử lại.</string>
+		<key>tips_user_cancel</key>
+		<string>Người dùng hủy thanh toán.</string>
+		<key>tips_params_error</key>
+		<string>Nhắc nhở: không để trống thông số.</string>
+		<key>tips_sec_pay</key>
+		<string>Xác nhận thanh toán?</string>
+		<key>tips_input_phone_error</key>
+		<string>Không phải thuê bao {}</string>
+		<key>tips_hw_reply_code</key>
+		<string>Vui lòng nhập mã xác nhận để thanh toán.</string>
+		<key>l_price</key>
+		<string>Giá</string>
+		<key>l_channel</key>
+		<string>Kênh thanh toán </string>
+		<key>l_transaction_id</key>
+		<string>Mã giao dịch</string>
+		<key>l_payment_code</key>
+		<string>Mã thanh toán</string>
+		<key>btn_how_to</key>
+		<string>Làm sao để thanh toán?&gt;&gt;</string>
+		<key>btn_knew</key>
+		<string>Đã hiểu</string>
+		<key>btn_send</key>
+		<string>Gửi</string>
+		<key>tf_serial_no</key>
+		<string>Số Seri:</string>
+		<key>tf_card_no</key>
+		<string>Mã thẻ:</string>
+		<key>tips_pay_delay</key>
+		<string>Thanh toán có thể chậm trễ, vui lòng đợi.</string>
+		<key>tips_offline</key>
+		<string>Vui lòng đến {} hoàn thành thanh toán.</string>
+		<key>tips_net_error</key>
+		<string>Mạng lỗi, vui lòng kiểm tra lại.</string>
+		<key>tips_init_error0</key>
+		<string>Vui lòng kiểm tra lại mã vật phẩm.</string>
+		<key>tips_param_error</key>
+		<string>Vui lòng kiểm tra thông số tại giao diện này.</string>
+		<key>tips_sms_not_support</key>
+		<string>Current device don&apos;t support pay by sms.</string>
+	</dict>
+	<key>id</key>
+	<dict>
+		<key>cancel</key>
+		<string>batal</string>
+		<key>confirm</key>
+		<string>setuju</string>
+		<key>hint_serial</key>
+		<string>nomor seri.</string>
+		<key>hint_phone</key>
+		<string>Silahkkan input nomor {} anda. </string>
+		<key>tips_cofirmation_code</key>
+		<string>Silahkan balas kode kofirmasi setelah anda menerimanya.</string>
+		<key>tips_sdk_not_init</key>
+		<string>SDK tidak dapat dibuka, silahkan ulangi kembali.</string>
+		<key>tips_price_error</key>
+		<string>ERROR:terdapat kesalahan harga.</string>
+		<key>tips_no_phone</key>
+		<string>ERROR:nomor telepon tidak dapat di kosongkan.</string>
+		<key>tips_no_sim</key>
+		<string>ERROR:TIDAK ADA KARTU SIM atau KARTU SIM tidak sesuai. </string>
+		<key>tips_bk_not_support</key>
+		<string>ERROR:KARTU SIM anda tidak mendukung pembayaran ini.</string>
+		<key>tips_line_not_install</key>
+		<string>Tidak dapat menemukan aplikasi LINE, silahkan instal kemudian coba lagi.</string>
+		<key>tips_user_cancel</key>
+		<string>Pengguna membatalakan pembayaran ini.</string>
+		<key>tips_params_error</key>
+		<string>ERROR:parammeter tidak di temukan.</string>
+		<key>tips_sec_pay</key>
+		<string>Apakah anda ingin membayar ?</string>
+		<key>tips_input_phone_error</key>
+		<string>Telepon ini tidak mendukung</string>
+		<key>tips_hw_reply_code</key>
+		<string>Silahkan balas kode konfirmasi yang anda terima.mirip: {}</string>
+		<key>l_price</key>
+		<string>Harga</string>
+		<key>l_channel</key>
+		<string>Channel:</string>
+		<key>l_transaction_id</key>
+		<string>ID Transaksi:</string>
+		<key>l_payment_code</key>
+		<string>Kode Pembayaran</string>
+		<key>btn_how_to</key>
+		<string>Bagaimana ?&gt;&gt;</string>
+		<key>btn_knew</key>
+		<string>Saya tahu</string>
+		<key>btn_send</key>
+		<string>Kirim</string>
+		<key>tf_serial_no</key>
+		<string>Nomor Serial</string>
+		<key>tf_card_no</key>
+		<string>Card NO.</string>
+		<key>tips_pay_delay</key>
+		<string>Pembayaran ini mungkin mengalami gangguan, mohon menunggu.</string>
+		<key>tips_offline</key>
+		<string>Silahkan pergi ke {} untuk menyelesaikan pembayaran ini.</string>
+		<key>tips_net_error</key>
+		<string>Koneksi bermasalah, silahkan periksa koneksi anda.</string>
+		<key>tips_init_error0</key>
+		<string>Silahkan periksa apakah productId anda sudah benar.</string>
+		<key>tips_param_error</key>
+		<string>Silahkan periksa parameter untuk interface ini.</string>
+	</dict>
+	<key>en</key>
+	<dict>
+		<key>cancel</key>
+		<string>Cancel</string>
+		<key>confirm</key>
+		<string>Confirm</string>
+		<key>hint_serial</key>
+		<string>Serial NO.</string>
+		<key>hint_phone</key>
+		<string>Please input your {} number.</string>
+		<key>tips_cofirmation_code</key>
+		<string>Please reply the confirmation code when you received.</string>
+		<key>tips_sdk_not_init</key>
+		<string>SDK haven&apos;t initialized,please initialize then try again.</string>
+		<key>tips_price_error</key>
+		<string>ERROR:price is error.</string>
+		<key>tips_no_phone</key>
+		<string>ERROR:phone number can not be empty.</string>
+		<key>tips_no_sim</key>
+		<string>ERROR:NO SIM or SIM not support. </string>
+		<key>tips_bk_not_support</key>
+		<string>ERROR:your SIM not support this payment channel.</string>
+		<key>tips_line_not_install</key>
+		<string>Can not find LINE,please install then try again.</string>
+		<key>tips_user_cancel</key>
+		<string>User cancel this payment.</string>
+		<key>tips_params_error</key>
+		<string>ERROR:parameters can not be null.</string>
+		<key>tips_sec_pay</key>
+		<string>Do you want to pay ?</string>
+		<key>tips_input_phone_error</key>
+		<string>This phone isn‘t {}</string>
+		<key>tips_hw_reply_code</key>
+		<string>Please reply the confirmation code after received.such as :{}</string>
+		<key>l_price</key>
+		<string>Price</string>
+		<key>l_channel</key>
+		<string>Channel:</string>
+		<key>l_transaction_id</key>
+		<string>TransactionId</string>
+		<key>l_payment_code</key>
+		<string>Payment Code</string>
+		<key>btn_how_to</key>
+		<string>cara pembayaran ?&gt;&gt;</string>
+		<key>btn_knew</key>
+		<string>aku tahu</string>
+		<key>btn_send</key>
+		<string>Send</string>
+		<key>tf_serial_no</key>
+		<string>Serial NO.</string>
+		<key>tf_card_no</key>
+		<string>Card NO.</string>
+		<key>tips_pay_delay</key>
+		<string>This payment may be have a delay,please wait.</string>
+		<key>tips_offline</key>
+		<string>Please go to {} to finish this payment.</string>
+		<key>tips_net_error</key>
+		<string>Network error,please check you network.</string>
+		<key>tips_init_error0</key>
+		<string>Please check if the productId is match your key.</string>
+		<key>tips_param_error</key>
+		<string>Please check the parameters for this interface.</string>
+		<key>tips_sms_not_support</key>
+		<string>Current device don&apos;t support pay by sms.</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_interstitial_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/boyaa_ad_common_bg"
+    android:padding="8dp"
+    tools:context=".MainActivity" >
+    
+
+        <ImageView
+            android:id="@+id/image_interstitial_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY" />
+
+        <com.boyaa.boyaaad.widget.HorizontalProgressBarView
+            android:visibility="gone"
+            android:id="@+id/boyaa_ad_interstitial_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/interstitial_error_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_interstitial_btn_root"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_interstitial_ad"
+         android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_interstitial_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/boyaa_ad_btn_green_selector"
+            android:text="@string/boyaa_ad_text_continue"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_interstitial_exit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/boyaa_ad_btn_yellow_selector"
+            android:text="@string/boyaa_ad_text_exit"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+           <ImageButton
+        android:id="@+id/btn_interstitial_single_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/boyaa_ad_close" />
+
+</RelativeLayout>

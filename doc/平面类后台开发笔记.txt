@@ -1,0 +1,101 @@
+主要内容就是活动中心的图片有PHP控制，客户端负责下载图片，解析数据；
+
+主要就是一下跳转类型：
+1.弹窗类型，这个简单，只需要设置图标，弹出对应弹窗
+2.广告类型，这个相当复杂一些， 需要配置2张图片，一个图标，一个类型，所以这个下载资源定义为zip类型
+3.进入房间类型，点击直接进入房间或者选场界面
+
+2 = {
+
+    "expire"        = "7"
+
+    "ext_property"  = "0"
+
+    "gift_category" = "0"
+
+    "id"            = "7005"
+
+    "image"         = "http://pclptl9k02-static.boyaagame.com/static/nineke/nineke/gift/20160530162305-moonwolf.zip?offy=-5"
+
+    "money"         = "55555"
+
+    "name"          = "moonwolf"
+
+    "rankAll"       = "0"
+
+    "rankType"      = "0"
+
+    "status"        = "1"
+
+    "swf"           = ""
+
+    "time"          = "1446022041"
+
+    "zh_name"       = "狼嚎"
+
+}
+
+参数
+
+PHP文档接口
+http://hy.oa.com/wiki/doku.php?id=9k:actv2
+
+PHP返回数据：
+"callData" = {
+
+    "cdn"  = "http://pclptl9k02-static.boyaagame.com/static/nineke/nineke/act/"
+
+    "list" = {
+
+        1 = {
+
+            "bannerImg" = "activity_football_icon.png"
+
+            "end"       = 1495295424
+
+            "eshow"     = 1495971924
+
+            "goto"      = 1
+
+            "id"        = 1
+
+            "name"      = "泰文名"
+
+            "sort"      = 2
+
+            "sshow"     = 1494330584
+
+            "start"     = 1494330593
+
+        }
+
+        2 = {
+
+            "bannerImg" = "activity_football_icon.png"
+
+            "end"       = 1495295424
+
+            "eshow"     = 1495972224
+
+            "goto"      = ""
+
+            "id"        = 2
+
+            "name"      = "泰文名"
+
+            "sort"      = 3
+
+            "sshow"     = 1494330584
+
+            "start"     = 1494330593
+
+        }
+
+    }
+
+    "ret"  = 0
+
+}
+
+根据goto类型判断是下载图片还是ZIP压缩包，目前只有15是下载压缩包
+下载地址 cdn 与 bannerImg 拼接 

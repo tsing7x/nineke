@@ -1,0 +1,23 @@
+<TextureAtlas name="fla_touziFAIL" imagePath="texture.png">
+ <SubTexture name="fla_touziFAIL_hg" x="956" y="168" width="48" height="49"/>
+ <SubTexture name="fla_touziFAIL_yeziasqq" x="956" y="261" width="25" height="22"/>
+ <SubTexture name="fla_touziFAIL_yezaaq" x="983" y="261" width="22" height="25"/>
+ <SubTexture name="fla_touziFAIL_椭圆 9" x="1006" y="181" width="8" height="8"/>
+ <SubTexture name="fla_touziFAIL_TH" x="1006" y="168" width="11" height="11"/>
+ <SubTexture name="fla_touziFAIL_椭圆 27 副本 3" x="830" y="437" width="126" height="53"/>
+ <SubTexture name="fla_touziFAIL_dangbanaq" x="771" y="492" width="196" height="82"/>
+ <SubTexture name="fla_touziFAIL_huichi1" x="956" y="219" width="44" height="40"/>
+ <SubTexture name="fla_touziFAIL_huichi2" x="956" y="0" width="58" height="66"/>
+ <SubTexture name="fla_touziFAIL_huichi3" x="956" y="68" width="64" height="52"/>
+ <SubTexture name="fla_touziFAIL_huichi4" x="654" y="577" width="79" height="42"/>
+ <SubTexture name="fla_touziFAIL_huichi5" x="953" y="330" width="67" height="33"/>
+ <SubTexture name="fla_touziFAIL_huichi6" x="654" y="462" width="115" height="63"/>
+ <SubTexture name="fla_touziFAIL_huichi7" x="654" y="527" width="108" height="48"/>
+ <SubTexture name="fla_touziFAIL_huichi8" x="764" y="576" width="98" height="34"/>
+ <SubTexture name="fla_touziFAIL_huichi9" x="864" y="576" width="85" height="37"/>
+ <SubTexture name="fla_touziFAIL_huichi" x="956" y="122" width="66" height="44"/>
+ <SubTexture name="fla_touziFAIL_yingzisa" x="654" y="330" width="174" height="130"/>
+ <SubTexture name="fla_touziFAIL_huangguanz" x="830" y="330" width="121" height="105"/>
+ <SubTexture name="fla_touziFAIL_buliaoq" x="654" y="0" width="300" height="328"/>
+ <SubTexture name="fla_touziFAIL_guangquan" x="0" y="0" width="652" height="618"/>
+</TextureAtlas>

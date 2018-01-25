@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="boyaa_ad_download_texy">下载</string>
+    <string name="boyaa_ad_title_applist">热门游戏</string>
+    <string name="boyaa_ad_start_download_app">亲，%s已在后台下载！</string>
+    <string name="boyaa_ad_text_continue">继续游戏</string>
+    <string name="boyaa_ad_text_exit">退出游戏</string>
+
+    <string name="boyaa_ad_network_error">网络异常，请检查网络情况</string>
+    <string name="boyaa_ad_no_ad_tip">客官，记得明天再来哟~</string>
+    <string name="boyaa_ad_float_text">推荐</string>
+    <string name="boyaa_ad_install">安装</string>
+    <string name="boyaa_ad_get_faile">您的奖励已领取！</string>
+    <string name="boyaa_ad_get_server_faile">网络不给力，请稍后再试！</string>
+     <string name="boyaa_ad_task_undone">不好意思您的任务未完成！</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/fl_boyaa_ad_sudo_root"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/ll_boyaa_ad_root"
+        android:background="@drawable/boyaa_ad_common_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <GridView
+            android:layout_marginTop="5dp"
+            android:id="@+id/gv_boyaa_ad_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:numColumns="3"
+            android:verticalSpacing="3dp"
+            android:listSelector="@android:color/transparent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:stretchMode="columnWidth"
+            >
+        </GridView>
+    </LinearLayout>
+
+    <ImageButton
+        android:background="@null"
+        android:id="@+id/btn_boyaa_ad_sudo_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/boyaa_ad_close" />
+</FrameLayout>

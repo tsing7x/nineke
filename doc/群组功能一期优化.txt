@@ -1,0 +1,185 @@
+翻译：
+点击输入群组简介，不得超过X字
+请输入好友ID 搜索 接受 充值返利
+场次类型
+房间玩法
+桌子类型
+房间盲注
+设置密码
+
+1.群名字修改，缺少PHP接口 O
+2.群主退群是否需要新接口？ O
+3.未加入群，群列表缺少简介信息，PHP返回 O
+4.邀请弹窗，数据需要PHP筛选（1. 优先拉取未加入群组的好友 2. 其次拉取附近的人  3. 以上2个都拉取不到拉取空值 ）O
+5.“添加好友”更改为“查看信息“，需要新接口获取玩家完整信息,othermain接口请求2次，看看是否可以优化！！！！！！！X
+
+创建私人房间接口：
+{
+	mod = "Group",
+	act = "createTable",
+	uid = nk.userData.uid,
+	group_id = self.group_id_,
+	sb = sb,
+	flag = flag,
+	pc = pc,
+	psword = psword,
+},
+flag桌子类型1--游戏币普通场，2--游戏币专业场，3--现金币普通场，4--现金币专业场，5--黄金币普通场，6--黄金币专业场,8--4K场 9--5K场  10--色子场 
+
+获取群成员数据接口：
+{
+    mod = "Group",
+    act = "getGroupInfo",
+    group_id = nk.userData.groupId,
+    type = 2,
+    room = 1
+},
+
+被邀请进来的玩家不知道是私人房还是普通房间？由server返回，创建RoomModel:isGroupRoom()接口判断，根据判断获取好友列表或者群成员列表；
+
+以前只有关闭好友弹窗，群组配置信息nk.userData.groupConfig，就会赋值为nil，现在需要在房间获取群员列表的时候传入，新增nk.userData.groupId字段保存；
+4种情况会对nk.userData.groupId赋值：
+1.打开群组界面；
+2.接受邀请玩牌；
+3.创建群；
+4.退出群；
+
+PHP处理，当发生邀请群成员，该成员已退群情况！！！
+
+获取好友数据的时候，因为现在提供的接口只能分页获取，所有需要发送多次请求（兼容：如果没有获取完，就显示当前获取到的）；
+
+新增发送邀请玩牌接口：
+{
+    mod = "Group",
+    act = "invitePlay", 
+    invite_uid = tonumber(evt.uid),
+    sb = roomInfo.blind, --底注
+    tid = roomInfo.tid, --牌桌id
+    flag = roomInfo.roomType, --桌子类型，
+    group_id = nk.userData.groupId--群id
+},
+返回一个ret字段，1邀请成功，-4被邀请人已不在当前群，其他返回 邀请失败
+邀请成功会收到一个广播SVR_INVITE_PLAY，在HallBroadcast:onProcessPacket(pack)处理
+
+还未解决的细节：
+1.默认简介？默认为：这是XXX的群
+2.简介和群名字长度限制？简介60字符，名字15字符;
+3.感觉点击成员的菜单栏，触摸体验不太好？新增ScrollView:setTouchNodeSwallowEnabled接口，因为默认吞噬了触摸；
+
+
+群房间列表数据：
+"self.groupRoomInfo_" = {
+    1 = {
+        "flag"      = "6"
+        "gid"       = "37"
+        "id"        = "113"
+        "pc"        = "5"
+        "player"    = 0
+        "psword"    = 0
+        "s_picture" = "1"
+        "sb"        = "1"
+        "sid"       = "280"
+        "tid"       = "819005"
+        "uid"       = "11075"
+    }
+}
+
+群组列表数据：
+"onSubTabChange_" = {
+    1 = {
+        1 = {
+            "active"      = "1011180"
+            "address"     = "ws102"
+            "admin_uid"   = "10894"
+            "create_time" = "1479723462"
+            "group_name"  = "Study Hard Dayday Up"
+            "id"          = "33"
+            "image_url"   = "http://nineke-th-demo.boyaa.com/staticres/icon/69/11069-1476409998.png"
+            "is_check"    = "0"
+            "level"       = "0"
+            "money"       = "0"
+            "num"         = 500
+            "pnum"        = "2"
+            "uid"         = "11069"
+			"description"         = "sadasas"
+			
+        }
+        2 = {
+            "active"      = "1010235"
+            "address"     = "ws102"
+            "admin_uid"   = "11579"
+            "create_time" = "1478848811"
+            "group_name"  = "นักเที่ยว11579"
+            "id"          = "25"
+            "image_url"   = "http://nineke-th-demo.boyaa.com/staticres/icon/344/11344-1479278824.png"
+            "is_check"    = "0"
+            "level"       = "0"
+            "money"       = "0"
+            "num"         = 500
+            "pnum"        = "5"
+            "uid"         = "11069"
+        }
+    }
+	
+    }
+    "page" = 1
+}
+新增description，群简介字段！！！
+
+
+群组成员数据：
+"self.groupMemberInfo_" = {
+
+    1 = {
+
+        "act"         = 1
+
+        "active"      = "19"
+
+        "create_time" = "1482458940"
+
+        "from_uid"    = "0"
+
+        "gid"         = "37"
+
+        "id"          = "318"
+
+        "invite_type" = "0"
+
+        "nick"        = "sfsfsf222"
+
+        "online"      = 0
+
+        "s_picture"   = "1"
+
+        "status"      = "1"
+
+        "tid"         = 0
+
+        "uid"         = "11075"
+
+    }
+}
+
+"一起玩牌"เล่นไพ่กัน
+"进入房间"เข้าห้อง
+"邀请"เชิญ
+"请输入好友ID"กรุณากรอก ID เพื่อน 
+"输入好友ID"กรอก ID เพื่อน
+"搜索"ค้นหา
+"邀请成功！！！"เชิญเพื่อนสำเร็จ
+"被邀请人已不在当前群！！！"เพื่อนท่านนี้ไม่ได้อยู่ในกลุ่มนี้แล้วค่ะ 
+"邀请失败！！！"เชิญเพื่อนล้มเหลว
+"场次类型"ห้องชิป/ชิปทองคำ
+"房间玩法"วิธีเล่น
+"专业场"ห้องมืออาชีพ
+"游戏币"ชิป
+"桌子类型"จำนวนผู้เล่น
+"群简介:"คำแนะนำของกลุ่ม
+"点击输入群组简介，不得超过X字"กรอกคำแนะนำของกลุ่ม จำกัดอักษรไม่เกิน X ตัว
+查看信息 "เช็ครายละเอียด"
+"搜索群组"ค้นหากลุ่ม
+"返回群组"กลับกลุ่ม
+"请输入群验证码:"กรุณากรอกรหัสยืนยันของกลุ่ม
+
+

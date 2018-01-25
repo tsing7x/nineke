@@ -1,0 +1,12 @@
+<resources>
+  <lang value="th">en</lang>
+  <ek value="BoyaaPay">2_5F689284876D4C68605DBBF7E2C3407F</ek>
+  <productId value="295">295</productId>
+  <promotionId value="1000">1000</promotionId>
+  <prices> 
+      <price value="1000">399 golds for 10THB</price>
+      <price value="500" default="true">100 golds for 5THB</price>
+      <price value="5000">1000 golds for 50THB</price>
+      <price value="14900">2000 golds for 149THB</price>
+  </prices>
+</resources>

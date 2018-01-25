@@ -1,0 +1,28 @@
+<TextureAtlas name="fla_allinQ" imagePath="texture.png">
+ <SubTexture name="fla_allinQ_15" x="745" y="202" width="25" height="18"/>
+ <SubTexture name="fla_allinQ_16" x="745" y="222" width="25" height="15"/>
+ <SubTexture name="fla_allinQ_17" x="745" y="239" width="23" height="17"/>
+ <SubTexture name="fla_allinQ_18" x="477" y="241" width="36" height="24"/>
+ <SubTexture name="fla_allinQ_19" x="898" y="472" width="105" height="58"/>
+ <SubTexture name="fla_allinQ_20" x="974" y="226" width="39" height="27"/>
+ <SubTexture name="fla_allinQ_21" x="1001" y="0" width="14" height="14"/>
+ <SubTexture name="fla_allinQ_43" x="277" y="0" width="262" height="210"/>
+ <SubTexture name="fla_allinQ_44" x="540" y="0" width="238" height="201"/>
+ <SubTexture name="fla_allinQ_45" x="779" y="0" width="221" height="182"/>
+ <SubTexture name="fla_allinQ_46" x="540" y="202" width="204" height="171"/>
+ <SubTexture name="fla_allinQ_47" x="277" y="211" width="199" height="152"/>
+ <SubTexture name="fla_allinQ_48" x="0" y="473" width="156" height="126"/>
+ <SubTexture name="fla_allinQ_49" x="404" y="364" width="101" height="99"/>
+ <SubTexture name="fla_allinQ_42" x="974" y="183" width="48" height="42"/>
+ <SubTexture name="fla_allinQ_23" x="898" y="373" width="96" height="97"/>
+ <SubTexture name="fla_allinQ_24" x="404" y="464" width="94" height="73"/>
+ <SubTexture name="fla_allinQ_25" x="658" y="375" width="76" height="92"/>
+ <SubTexture name="fla_allinQ_26" x="477" y="211" width="39" height="28"/>
+ <SubTexture name="fla_allinQ_27" x="0" y="213" width="269" height="141"/>
+ <SubTexture name="fla_allinQ_28" x="218" y="364" width="184" height="132"/>
+ <SubTexture name="fla_allinQ_29" x="745" y="373" width="151" height="155"/>
+ <SubTexture name="fla_allinQ_9" x="0" y="0" width="275" height="212"/>
+ <SubTexture name="fla_allinQ_13" x="779" y="183" width="193" height="189"/>
+ <SubTexture name="fla_allinQ_39" x="0" y="356" width="216" height="115"/>
+ <SubTexture name="fla_allinQ_12" x="506" y="375" width="150" height="150"/>
+</TextureAtlas>

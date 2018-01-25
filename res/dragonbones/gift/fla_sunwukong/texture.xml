@@ -1,0 +1,25 @@
+<TextureAtlas name="fla_sunwukong" imagePath="texture.png">
+  <SubTexture name="fla_ChangJingQH_yun3" x="224" y="48" width="28" height="19"/>
+  <SubTexture name="fla_sunwukong_teoxap" x="130" y="115" width="51" height="39"/>
+  <SubTexture name="fla_sunwukong_teoxap8" x="0" y="0" width="80" height="62"/>
+  <SubTexture name="fla_sunwukong_teoxap7" x="82" y="0" width="72" height="58"/>
+  <SubTexture name="fla_sunwukong_teoxap6" x="82" y="60" width="63" height="51"/>
+  <SubTexture name="fla_sunwukong_teoxap5" x="0" y="64" width="51" height="51"/>
+  <SubTexture name="fla_sunwukong_gunguang" x="156" y="59" width="62" height="55"/>
+  <SubTexture name="fla_sunwukong_toubua" x="82" y="113" width="47" height="45"/>
+  <SubTexture name="fla_sunwukong_zhouboaq" x="250" y="0" width="3" height="3"/>
+  <SubTexture name="fla_sunwukong_jingjian" x="147" y="60" width="7" height="7"/>
+  <SubTexture name="fla_sunwukong_jingjiana2" x="73" y="64" width="7" height="5"/>
+  <SubTexture name="fla_sunwukong_buzishangweijing" x="219" y="103" width="18" height="8"/>
+  <SubTexture name="fla_sunwukong_gunzi" x="224" y="0" width="25" height="47"/>
+  <SubTexture name="fla_sunwukong_shengbba" x="219" y="84" width="18" height="18"/>
+  <SubTexture name="fla_sunwukong_shangshenga" x="53" y="86" width="18" height="16"/>
+  <SubTexture name="fla_sunwukong_xiayunbai" x="219" y="69" width="29" height="14"/>
+  <SubTexture name="fla_sunwukong_tuizhizhyi" x="53" y="64" width="19" height="20"/>
+  <SubTexture name="fla_sunwukong_tuibua" x="53" y="103" width="14" height="15"/>
+  <SubTexture name="fla_sunwukong_shoula" x="238" y="84" width="10" height="23"/>
+  <SubTexture name="fla_sunwukong_teoxap4" x="238" y="108" width="16" height="8"/>
+  <SubTexture name="fla_sunwukong_teoxap3" x="68" y="103" width="13" height="10"/>
+  <SubTexture name="fla_sunwukong_teoxap2" x="219" y="112" width="11" height="10"/>
+  <SubTexture name="fla_sunwukong_sadishanzgwen" x="156" y="0" width="67" height="58"/>
+</TextureAtlas>

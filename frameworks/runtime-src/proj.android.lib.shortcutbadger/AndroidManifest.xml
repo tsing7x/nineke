@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="me.leolin.shortcutbadger"
+    >
+
+    <!--for android-->
+    <!--<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>-->
+    <!--<uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>-->
+    <!--<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />-->
+    <!--<uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />-->
+
+	<uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="21" />
+
+</manifest>

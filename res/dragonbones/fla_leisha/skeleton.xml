@@ -1,0 +1,234 @@
+<dragonBones name="fla_leisha" frameRate="24" version="2.3">
+ <armature name="fla_leishakuang">
+  <bone name="leisha_baiz">
+   <transform x="-0.4" y="16.55" skX="0" skY="0" scX="0.57" scY="0.57"/>
+  </bone>
+  <skin name="">
+   <slot name="leisha_baiz" parent="leisha_baiz" z="0">
+    <display name="fla_leisha_baiz" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="6.5" pY="6.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="play" fadeInTime="0" duration="30" scale="1" loop="1" tweenEasing="NaN">
+   <timeline name="leisha_baiz" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="5">
+     <transform x="-0.4" y="16.55" skX="0" skY="0" scX="0.57" scY="0.57" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="31" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="-0.4" y="0.55" skX="0" skY="0" scX="1.04" scY="1.04" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="14">
+     <transform x="-0.4" y="-2.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" event="atk" duration="7">
+     <transform x="-0.4" y="-5.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-0.4" y="-6.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="fla_leishajinbi">
+  <bone name="leisha_jingbis">
+   <transform x="0.2" y="2.3" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="leisha_jingbi">
+   <transform x="0.05" y="2.1" skX="0" skY="0" scX="0.32" scY="0.32"/>
+  </bone>
+  <skin name="">
+   <slot name="leisha_jingbi" parent="leisha_jingbi" z="0">
+    <display name="fla_leisha_jingbi" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="19" pY="19"/>
+    </display>
+   </slot>
+   <slot name="leisha_jingbis" parent="leisha_jingbis" z="1">
+    <display name="fla_leisha_jingbi" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="19" pY="19"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="born" fadeInTime="0" duration="8" scale="1" loop="1" tweenEasing="NaN">
+   <timeline name="leisha_jingbi" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="0.05" y="2.1" skX="0" skY="0" scX="0.32" scY="0.32" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="0.05" y="2.1" skX="0" skY="0" scX="1.42" scY="1.42" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="0.05" y="2.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+  <animation name="stand" fadeInTime="0" duration="5" scale="1" loop="1" tweenEasing="NaN">
+   <timeline name="leisha_jingbi" scale="1" offset="0">
+    <frame z="0" duration="5">
+     <transform x="0.05" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+  <animation name="end" fadeInTime="0" duration="6" scale="2.5" loop="1" tweenEasing="NaN">
+   <timeline name="leisha_jingbi" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="0.2" y="2.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="2">
+     <transform x="0.2" y="2.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="leisha_jingbis" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="3">
+     <transform x="0.2" y="2.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="0.2" y="2.3" skX="0" skY="0" scX="1.68" scY="1.68" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="fla_leishaguang">
+  <bone name="leishaguang_shape6">
+   <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="leishaguang_shape5">
+   <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="leishaguang_shape4">
+   <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="leishaguang_shape3">
+   <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="leishaguang_shape2">
+   <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="leishaguang_shape">
+   <transform x="-0.35" y="1.6" skX="20.29" skY="-159.71" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="leishaguang_shape" parent="leishaguang_shape" z="0">
+    <display name="fla_leishaguang_shape1423" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63" pY="89"/>
+    </display>
+   </slot>
+   <slot name="leishaguang_shape2" parent="leishaguang_shape2" z="1">
+    <display name="fla_leishaguang_shape1426" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="92" pY="88.05"/>
+    </display>
+   </slot>
+   <slot name="leishaguang_shape3" parent="leishaguang_shape3" z="2">
+    <display name="fla_leishaguang_shape1428" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="90.3" pY="88.75"/>
+    </display>
+   </slot>
+   <slot name="leishaguang_shape4" parent="leishaguang_shape4" z="3">
+    <display name="fla_leishaguang_shape1430" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="91.25" pY="91"/>
+    </display>
+   </slot>
+   <slot name="leishaguang_shape5" parent="leishaguang_shape5" z="4">
+    <display name="fla_leishaguang_shape1432" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="89.75" pY="87.8"/>
+    </display>
+   </slot>
+   <slot name="leishaguang_shape6" parent="leishaguang_shape6" z="5">
+    <display name="fla_leishaguang_shape1434" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="81.8" pY="87"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="play" fadeInTime="0" duration="7" scale="3" loop="1" tweenEasing="NaN">
+   <timeline name="leishaguang_shape" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-0.35" y="1.6" skX="20.29" skY="-159.71" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="leishaguang_shape2" scale="1" offset="0">
+    <frame duration="1" displayIndex="-1"/>
+    <frame z="1" duration="1">
+     <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+   <timeline name="leishaguang_shape3" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="2" duration="1">
+     <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="leishaguang_shape4" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="3" duration="1">
+     <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="leishaguang_shape5" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="4" duration="1">
+     <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+   <timeline name="leishaguang_shape6" scale="1" offset="0">
+    <frame duration="5" displayIndex="-1"/>
+    <frame z="5" duration="1">
+     <transform x="-0.35" y="1.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="fla_leisha">
+  <bone name="leisha_ddssdwaasd">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="leisha_ddssdwaasd" parent="leisha_ddssdwaasd" z="0">
+    <display name="fla_leisha_1660" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="9" pY="9"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="play" fadeInTime="0.3" duration="9" scale="0.8" loop="1" tweenEasing="NaN">
+   <timeline name="leisha_ddssdwaasd" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-2" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="2" y="-3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-3" y="3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="4" y="2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="0" y="-4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

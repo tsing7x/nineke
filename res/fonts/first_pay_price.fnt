@@ -1,0 +1,15 @@
+info face="Arial" size=32 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=32 base=26 scaleW=512 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="first_pay_price_0.png"
+chars count=11
+char id=48   x=285   y=0     width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=49   x=320   y=0     width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=50   x=355   y=0     width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=51   x=390   y=0     width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=52   x=425   y=0     width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=53   x=460   y=0     width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=54   x=0     y=64    width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=55   x=35    y=64    width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=56   x=70    y=64    width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=57   x=105   y=64    width=34    height=44    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=84   x=0     y=0     width=284   height=63    xoffset=0     yoffset=-19     xadvance=284   page=0  chnl=15

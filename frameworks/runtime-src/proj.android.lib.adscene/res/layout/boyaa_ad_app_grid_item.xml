@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/rl_sodu_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <FrameLayout
+            android:layout_above="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/sudo_iv_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/boyaa_ad_grid_item_bg" />
+
+            <ImageView
+                android:layout_gravity="center|bottom"
+                android:id="@+id/iv_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 />
+            <TextView 
+                android:layout_gravity="right|bottom"
+                android:background="@drawable/boyaa_donw_tip_bg"
+                android:layout_width="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="15dp"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+             android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#535354"
+            android:textSize="12dp" />
+
+   <!--      <View
+            android:visibility="invisible"
+            android:id="@+id/sudo_line1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_2" /> -->
+    </RelativeLayout>
+         <View
+            android:id="@+id/sudo_line"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:background="#AFAFAF" />
+</RelativeLayout>

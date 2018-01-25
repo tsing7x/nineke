@@ -1,0 +1,31 @@
+<TextureAtlas name="fla_paixing" imagePath="texture.png">
+  <SubTexture name="fla_paixinggao_xingxingdiandian" x="974" y="177" width="37" height="39"/>
+  <SubTexture name="fla_paixinggao_daizi" x="0" y="595" width="587" height="159"/>
+  <SubTexture name="fla_paixinggao_uanaga" x="717" y="377" width="236" height="50"/>
+  <SubTexture name="fla_paixinggao_piaodai2" x="743" y="224" width="23" height="15"/>
+  <SubTexture name="fla_paixinggao_piaodai7" x="991" y="34" width="31" height="32"/>
+  <SubTexture name="fla_paixinggao_paidai20" x="991" y="0" width="31" height="32"/>
+  <SubTexture name="fla_paixinggao_piaodai11" x="867" y="196" width="24" height="20"/>
+  <SubTexture name="fla_paixinggao_paidai12" x="987" y="218" width="17" height="24"/>
+  <SubTexture name="fla_paixinggao_paidai9" x="991" y="96" width="26" height="28"/>
+  <SubTexture name="fla_paixinggao_paidai8" x="991" y="68" width="31" height="26"/>
+  <SubTexture name="fla_paixinggao_piaodai3" x="743" y="168" width="65" height="54"/>
+  <SubTexture name="fla_paixinggao_piaodai" x="974" y="76" width="15" height="20"/>
+  <SubTexture name="fla_paixinggao_paidai5" x="918" y="146" width="54" height="38"/>
+  <SubTexture name="fla_paixinggao_piaodai4" x="918" y="218" width="37" height="29"/>
+  <SubTexture name="fla_paixinggao_piaodai6" x="957" y="218" width="28" height="22"/>
+  <SubTexture name="fla_paixinggao_paidao6" x="918" y="186" width="44" height="30"/>
+  <SubTexture name="fla_paixinggao_zitia " x="974" y="98" width="12" height="12"/>
+  <SubTexture name="fla_paixinggao_YOU" x="503" y="168" width="238" height="125"/>
+  <SubTexture name="fla_paixinggao_WIN" x="743" y="249" width="233" height="126"/>
+  <SubTexture name="fla_paixinggao_wangguan" x="503" y="295" width="212" height="100"/>
+  <SubTexture name="fla_paixinggao_weixing" x="918" y="0" width="71" height="74"/>
+  <SubTexture name="fla_paixinggao_dikang" x="0" y="0" width="894" height="166"/>
+  <SubTexture name="fla_paixinggao_szxx" x="810" y="168" width="55" height="55"/>
+  <SubTexture name="fla_paixinggao_huangx2" x="918" y="76" width="54" height="68"/>
+  <SubTexture name="fla_paixinggao_hg" x="974" y="126" width="48" height="49"/>
+  <SubTexture name="fla_paixinggao_xingxing" x="867" y="168" width="27" height="26"/>
+  <SubTexture name="fla_paixinggao_xingxingda" x="867" y="218" width="22" height="22"/>
+  <SubTexture name="fla_paixinggao_guangtiapa" x="896" y="0" width="21" height="232"/>
+  <SubTexture name="fla_paixinggao_diaguango" x="0" y="168" width="501" height="425"/>
+</TextureAtlas>

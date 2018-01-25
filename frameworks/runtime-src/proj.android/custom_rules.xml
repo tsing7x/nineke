@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="NineKe2" >
+
+    <property name="project.root" value="." />
+    <property name="build.dir" value="../build" />
+    <property name="bin" value="./bin" />
+    <property name="QUICK_COCOS2DX_ROOT" value="${env.QUICK_V3_ROOT}" />
+
+    <condition property="isMac" >
+        <os family="mac" />
+    </condition>
+
+    <condition property="isWindows" >
+        <os family="windows" />
+    </condition>
+
+    <condition property="isUnix" >
+        <os family="unix" />
+    </condition>
+
+    <target name="setMacProp" if="isMac" >
+        <property name="platform" value="mac" />
+        <property name="build_native.command" value="${project.root}/build_native.sh" />
+        <property name="compile_scripts.command" value="${QUICK_COCOS2DX_ROOT}/quick/bin/compile_scripts.sh" />
+    </target>
+
+    <target name="setWindowsProp" if="isWindows" >
+        <property name="platform" value="windows" />
+        <property name="build_native.command" value="${project.root}/build_native.bat" />
+        <property name="compile_scripts.command" value="${QUICK_COCOS2DX_ROOT}/quick/bin/compile_scripts.bat" />
+    </target>
+
+    <target name="setProps" depends="setMacProp,setWindowsProp">
+        <echo message="platform                -> ${platform}" />
+        <echo message="build_native.command    -> ${build_native.command}" />
+        <echo message="compile_scripts.command -> ${compile_scripts.command}" />
+        <echo message="encrypt_res.command      -> ${encrypt_res.command}" />
+    </target>
+
+    <target name="-pre-clean" depends="setProps" >
+    </target>
+
+    <target name="-pre-build" depends="setProps" >
+        <exec executable="${build_native.command}" failonerror="true" />
+        <exec executable="${compile_scripts.command}" failonerror="true">
+            <arg line="-i ./assets/src" />
+            <arg line="-o ./assets/res/game.zip" />
+            <arg line="-e xxtea_zip" />
+            <arg line="-ek ${source.enc.key}" />
+            <arg line="-es ${source.enc.sign}" />
+        </exec>
+        <delete dir="./assets/src" />
+    </target>
+
+    <target name="time-tmp">
+          <tstamp>  <format property="DSTAMP" pattern="yyyyMMdd-HHmm" /></tstamp>
+     </target>
+
+    <target name="-post-build" depends="time-tmp">
+        <xmlproperty file="AndroidManifest.xml" collapseAttributes="true" />
+        <!-- <property name="build.filename" value="${build.dir}/NineKe-TH-Android-release-${manifest.android:versionName}_${DSTAMP}.apk" /> -->
+        <!-- fixed `ant debug` target on July 31 by David Feng and thanks Jonah Gong -->
+        <if condition="${build.is.mode.release}">
+            <then>
+                <echo>-------------------------------------------------</echo>
+                <copy tofile="${build.dir}/NineKe-TH-release-${manifest.android:versionName}_${DSTAMP}.apk" file="${bin}/NineKe-release.apk" overwrite="true" />
+                <echo>-------------------------------------------------</echo>
+            </then>
+            <else>
+                <echo>-------------------------------------------------</echo>
+                <copy tofile="${build.dir}/NineKe-TH-debug-${manifest.android:versionName}_${DSTAMP}.apk" file="${bin}/NineKe-debug.apk" overwrite="true" />
+                <echo>-------------------------------------------------</echo>
+            </else>
+        </if>
+    </target>
+</project>

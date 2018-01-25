@@ -1,0 +1,20 @@
+<TextureAtlas name="fla_qitapaixin" imagePath="texture.png">
+  <SubTexture name="fla_qitapaixin_zxingaaq" x="218" y="144" width="30" height="22"/>
+  <SubTexture name="fla_qitapaixin_xingx" x="84" y="197" width="18" height="20"/>
+  <SubTexture name="fla_qitapaixin_mingzi" x="0" y="232" width="135" height="31"/>
+  <SubTexture name="fla_qitapaixin_R" x="219" y="36" width="30" height="34"/>
+  <SubTexture name="fla_qitapaixin_E" x="218" y="108" width="27" height="34"/>
+  <SubTexture name="fla_qitapaixin_N" x="219" y="72" width="30" height="34"/>
+  <SubTexture name="fla_qitapaixin_N_1" x="219" y="0" width="30" height="34"/>
+  <SubTexture name="fla_qitapaixin_I" x="167" y="192" width="11" height="34"/>
+  <SubTexture name="fla_qitapaixin_w" x="168" y="156" width="42" height="34"/>
+  <SubTexture name="fla_qitapaixin_paixing" x="84" y="171" width="24" height="24"/>
+  <SubTexture name="fla_qitapaixin_huangguana" x="0" y="171" width="82" height="39"/>
+  <SubTexture name="fla_qitapaixin_jinhuang" x="0" y="0" width="110" height="169"/>
+  <SubTexture name="fla_jiesuo_guang" x="112" y="0" width="105" height="103"/>
+  <SubTexture name="fla_jiesssuo_huangx" x="180" y="192" width="22" height="22"/>
+  <SubTexture name="fla_allinzhu_szxx" x="110" y="175" width="55" height="55"/>
+  <SubTexture name="fla_allinzhu_huangx2" x="112" y="105" width="54" height="68"/>
+  <SubTexture name="fla_allinzhu_hg" x="168" y="105" width="48" height="49"/>
+  <SubTexture name="fla_paixinggao_xingxingdiandian" x="212" y="168" width="37" height="39"/>
+</TextureAtlas>

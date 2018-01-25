@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>bind_getkey.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,204},{169,25}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,26}</string>
+			</dict>
+			<key>bind_ok.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{125,174},{26,20}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{26,20}</string>
+			</dict>
+			<key>bind_text_input.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,48},{54,54}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{54,54}</string>
+			</dict>
+			<key>bind_text_key.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,174},{125,20}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,20}</string>
+			</dict>
+			<key>bind_text_phone.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{169,48},{126,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{126,24}</string>
+			</dict>
+			<key>bind_title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{205,0},{204,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,46}</string>
+			</dict>
+			<key>bind_goto.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{145,48},{100,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,22}</string>
+			</dict>
+			<key>bind_success.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{205,48}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{206,48}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>BindPhone.png</string>
+			<key>realTextureFileName</key>
+			<string>BindPhone.png</string>
+			<key>size</key>
+			<string>{251,229}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>251</integer>
+			<key>height</key>
+			<integer>229</integer>
+		</dict>
+	</dict>
+</plist>

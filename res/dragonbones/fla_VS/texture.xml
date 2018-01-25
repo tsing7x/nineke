@@ -1,0 +1,21 @@
+<TextureAtlas name="fla_VS" imagePath="texture.png">
+ <SubTexture name="fla_a29" x="641" y="446" width="131" height="103"/>
+ <SubTexture name="fla_a28" x="508" y="446" width="131" height="103"/>
+ <SubTexture name="fla_a27" x="266" y="450" width="131" height="103"/>
+ <SubTexture name="fla_a26" x="774" y="342" width="131" height="103"/>
+ <SubTexture name="fla_a25" x="641" y="342" width="131" height="103"/>
+ <SubTexture name="fla_a24" x="774" y="446" width="131" height="103"/>
+ <SubTexture name="fla_a23" x="508" y="342" width="131" height="103"/>
+ <SubTexture name="fla_a22" x="133" y="450" width="131" height="103"/>
+ <SubTexture name="fla_a21" x="0" y="450" width="131" height="103"/>
+ <SubTexture name="vs_tx7" x="381" y="326" width="126" height="123"/>
+ <SubTexture name="vs_tx6" x="884" y="218" width="126" height="123"/>
+ <SubTexture name="vs_tx5" x="757" y="218" width="126" height="123"/>
+ <SubTexture name="vs_tx4" x="0" y="326" width="126" height="123"/>
+ <SubTexture name="vs_tx3" x="630" y="218" width="126" height="123"/>
+ <SubTexture name="vs_tx2" x="254" y="326" width="126" height="123"/>
+ <SubTexture name="vs_tx1" x="127" y="326" width="126" height="123"/>
+ <SubTexture name="fla_a10" x="651" y="0" width="266" height="216"/>
+ <SubTexture name="fla_a13" x="0" y="163" width="628" height="161"/>
+ <SubTexture name="fla_a16" x="0" y="0" width="649" height="161"/>
+</TextureAtlas>

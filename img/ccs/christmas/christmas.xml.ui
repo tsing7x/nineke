@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\work\lua\NineKe\ccs\christmas</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\work\lua\NineKe\ccs\christmas\Resources</Resources>
+  <Name>christmas</Name>
+  <JsonFileName>christmas.json</JsonFileName>
+  <JsonFolder>E:\work\lua\NineKe\ccs\christmas\Json</JsonFolder>
+  <JsonList>
+    <string>christmas_1.json</string>
+    <string>christmas_2.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>E:\work\lua\NineKe\ccs\christmas\christmas.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>christmas0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>christmas0.png</string>
+    <string>christmas0.png</string>
+  </imagePngList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>christmas_1.json</CurrentUIJson>
+</UIProject>

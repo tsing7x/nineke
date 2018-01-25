@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f7926264-1acb-4f08-af88-440099cf97a2++6155",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f7926264-1acb-4f08-af88-440099cf97a2++6155" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "quick-cocos2d-x\/branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "quick-cocos2d-x\/tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "quick-cocos2d-x\/trunk"
+    },
+    "bc345701-378f-43ec-97dc-1762be724dab++8614" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f7926264-1acb-4f08-af88-440099cf97a2++6155" : 9223372036854775807,
+    "bc345701-378f-43ec-97dc-1762be724dab++8614" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E539C782-53A4-4BB7-8673-E48F2853DB60",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f7926264-1acb-4f08-af88-440099cf97a2++6155" : "nineke\/",
+    "bc345701-378f-43ec-97dc-1762be724dab++8614" : "quick3.6.3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "nineke",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "branches\/NineKe2.0_new\/frameworks\/runtime-src\/proj.ios\/nineke.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.oa.com:24399\/haiying",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bc345701-378f-43ec-97dc-1762be724dab++8614"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.oa.com:24399\/mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f7926264-1acb-4f08-af88-440099cf97a2++6155"
+    }
+  ]
+}

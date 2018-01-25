@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">เก้าเกไทย</string>
+    <string name="facebook_app_id">607475452699270</string>
+    <string-array name="gcm_sender_ids">
+        <item>946041873885</item>
+    </string-array>
+</resources>

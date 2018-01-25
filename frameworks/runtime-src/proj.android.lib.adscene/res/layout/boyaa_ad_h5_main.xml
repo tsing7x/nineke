@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/boyaa_ad_h5_fl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    
+    >
+    <LinearLayout
+        android:layout_margin="10dp" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        >
+         
+        <LinearLayout 
+            android:id="@+id/boyaa_ad_ll_webview_loading"
+            android:background="@drawable/boyaa_ad_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <com.boyaa.boyaaad.widget.CusWebView
+            android:visibility="invisible"
+            android:id="@+id/boyaa_ad_wb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/boyaa_ad_h5_btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@null"
+        android:src="@drawable/boyaa_ad_close" />
+
+</FrameLayout>

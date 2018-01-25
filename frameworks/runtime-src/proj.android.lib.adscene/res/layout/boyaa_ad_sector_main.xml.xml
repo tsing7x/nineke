@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.boyaa.boyaaad.widget.CircleMenuLayout
+        android:id="@+id/boyaa_ad_menulayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/boyaa_ad_sector_bg" >
+    </com.boyaa.boyaaad.widget.CircleMenuLayout>
+
+    <RelativeLayout
+        android:id="@+id/boyaa_ad_rl_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+              android:layout_centerInParent="true"
+            android:background="@drawable/boyaa_ad_sector_center_bg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/boyaa_ad_sector_center_hit" />
+    </RelativeLayout>
+  <Button 
+        android:id="@+id/boyaa_ad_secter_close"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:background="@drawable/close_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</FrameLayout>

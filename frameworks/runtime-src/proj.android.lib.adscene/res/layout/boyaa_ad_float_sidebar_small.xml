@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_ad_sidebar"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+    >
+    <com.boyaa.boyaaad.widget.BoyaaGifImageView
+        android:id="@+id/ad_tv_sidebar"
+        android:src="@drawable/boyaa_ad_sidebar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="NineKe2" >
+
+	<!-- 当前文件设置全局变量 -->
+    <property name="project.root" value="." />
+    <property name="build.dir" value="../build" />
+    <property name="bin" value="./bin" />
+    <property name="QUICK_COCOS2DX_ROOT" value="${env.QUICK_V3_ROOT}" />
+
+	<!-- 只有条件成了，变量才会被定义，os确定操作系统类型 -->
+    <condition property="isMac" >
+        <os family="mac" />
+    </condition>
+
+    <condition property="isWindows" >
+        <os family="windows" />
+    </condition>
+
+    <condition property="isUnix" >
+        <os family="unix" />
+    </condition>
+
+	<!-- 设置Mac平台下配置，只有isMac被定义了才执行 -->
+    <target name="setMacProp" if="isMac" >
+        <property name="platform" value="mac" />
+        <property name="build_native.command" value="${project.root}/build_native.sh" />
+        <property name="compile_scripts.command" value="${QUICK_COCOS2DX_ROOT}/quick/bin/compile_scripts.sh" />
+    </target>
+
+	<!-- 设置Windows平台下配置，只有isWindows被定义了才执行 -->
+    <target name="setWindowsProp" if="isWindows" >
+        <property name="platform" value="windows" />
+        <property name="build_native.command" value="${project.root}/build_native.bat" />
+        <property name="compile_scripts.command" value="${QUICK_COCOS2DX_ROOT}/quick/bin/compile_scripts.bat" />
+    </target>
+
+	<!-- 设置属性，输出属性配置，依赖setMacProp,setWindowsProp，必须先执行setMacProp,setWindowsProp -->
+    <target name="setProps" depends="setMacProp,setWindowsProp">
+        <echo message="platform                -> ${platform}" />
+        <echo message="build_native.command    -> ${build_native.command}" />
+        <echo message="compile_scripts.command -> ${compile_scripts.command}" />
+        <echo message="encrypt_res.command      -> ${encrypt_res.command}" />
+    </target>
+
+	<!-- 准备清理 -->
+    <target name="-pre-clean" depends="setProps" >
+    </target>
+
+	<!-- 准备build，先拷贝资源到指定目录，然后加密lua代码，最后删除src目录 -->
+    <target name="-pre-build" depends="setProps" >
+        <exec executable="${build_native.command}" failonerror="true" />
+        <exec executable="${compile_scripts.command}" failonerror="true">
+            <arg line="-i ./assets/src" />
+            <arg line="-o ./assets/res/game.zip" />
+            <arg line="-e xxtea_zip" />
+            <arg line="-ek ${source.enc.key}" />
+            <arg line="-es ${source.enc.sign}" />
+        </exec>
+        <delete dir="./assets/src" />
+    </target>
+
+	<!-- 获取当前时间，赋值给DSTAMP，定义格式yyyyMMdd-HHmm -->
+    <target name="time-tmp">
+          <tstamp>  <format property="DSTAMP" pattern="yyyyMMdd-HHmm" /></tstamp>
+     </target>
+
+	 <!-- 打完apk结束后的请求，改变生成apk目录 -->
+    <target name="-post-build" depends="time-tmp">
+		<!-- xmlproperty能直接读取一个xml文件（注意不是构建文件！）以生成相应的property，collapseAttributes 将属性作为嵌套的元素 默认为false -->
+        <xmlproperty file="AndroidManifest.xml" collapseAttributes="true" />
+        <!-- <property name="build.filename" value="${build.dir}/NineKe-TH-Android-release-${manifest.android:versionName}_${DSTAMP}.apk" /> -->
+        <!-- fixed `ant debug` target on July 31 by David Feng and thanks Jonah Gong -->
+		
+		<!-- 如果build.is.mode.release属性存在，进入then，否则进入else -->
+        <if condition="${build.is.mode.release}">
+            <then>
+                <echo>-------------------------------------------------</echo>
+                <copy tofile="${build.dir}/NineKe-TH-release-${manifest.android:versionName}_${DSTAMP}.apk" file="${bin}/NineKe-release.apk" overwrite="true" />
+                <echo>-------------------------------------------------</echo>
+            </then>
+            <else>
+                <echo>-------------------------------------------------</echo>
+                <copy tofile="${build.dir}/NineKe-TH-debug-${manifest.android:versionName}_${DSTAMP}.apk" file="${bin}/NineKe-debug.apk" overwrite="true" />
+                <echo>-------------------------------------------------</echo>
+            </else>
+        </if>
+    </target>
+</project>

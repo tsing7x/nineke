@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="import_build" default="deploy_">
+
+    <target name="deploy_" depends="link">
+		<echo message="import_build deploy_"/>
+	</target>
+	
+	<!--类似函数覆盖，实际调用的是import_demo.xml中的 link（target），若是import_demo.xml没有定义，则会从import_build.xml中寻找。-->
+	<target name="link">
+		<echo message="import_build link"/>
+	</target> 
+	
+</project>

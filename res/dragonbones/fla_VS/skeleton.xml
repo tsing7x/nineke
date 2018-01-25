@@ -1,0 +1,377 @@
+<dragonBones name="fla_VS" frameRate="60" version="2.3">
+ <armature name="fla_VS">
+  <bone name="vs_a6">
+   <transform x="-1.7" y="22.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="vs_a5">
+   <transform x="1" y="25" skX="0" skY="0" scX="2.22" scY="2.22"/>
+  </bone>
+  <bone name="vs_a4">
+   <transform x="-0.2" y="11.75" skX="0" skY="0" scX="1.71" scY="1.71"/>
+  </bone>
+  <bone name="vs_a3">
+   <transform x="671" y="93.3" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="vs_a2">
+   <transform x="-648.85" y="-46.8" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="vs_a2" parent="vs_a2" z="0">
+    <display name="fla_a16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="324.5" pY="80.5"/>
+    </display>
+   </slot>
+   <slot name="vs_a3" parent="vs_a3" z="1">
+    <display name="fla_a13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="314" pY="80.5"/>
+    </display>
+   </slot>
+   <slot name="vs_a4" parent="vs_a4" z="2">
+    <display name="fla_gx1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="vs_a5" parent="vs_a5" z="3">
+    <display name="fla_a10" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="132.7" pY="108"/>
+    </display>
+   </slot>
+   <slot name="vs_a6" parent="vs_a6" z="4">
+    <display name="fla_a20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="stand" fadeInTime="0" duration="40" scale="2.5" loop="1" tweenEasing="NaN">
+   <timeline name="vs_a2" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="-648.85" y="-46.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="-236.85" y="-46.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="255" gO="255" bO="255" aM="100" rM="0" gM="0" bM="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="2">
+     <transform x="-272.85" y="-46.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="2">
+     <transform x="-249.65" y="-46.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="29">
+     <transform x="-254.85" y="-46.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-254.85" y="-46.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="vs_a3" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="3">
+     <transform x="671" y="93.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="3">
+     <transform x="241" y="93.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="255" gO="255" bO="255" aM="100" rM="0" gM="0" bM="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="2">
+     <transform x="277" y="93.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="2">
+     <transform x="255.8" y="93.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="29">
+     <transform x="261" y="93.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="261" y="93.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="vs_a4" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="2" duration="13">
+     <transform x="-0.2" y="11.75" skX="0" skY="0" scX="1.71" scY="1.71" pX="0" pY="0"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_a5" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="3" tweenEasing="0" duration="3">
+     <transform x="1" y="25" skX="0" skY="0" scX="2.22" scY="2.22" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="5" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="3">
+     <transform x="1" y="25" skX="0" skY="0" scX="0.9" scY="0.9" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="1" y="25" skX="0" skY="0" scX="1.05" scY="1.05" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="28">
+     <transform x="1" y="25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="1" y="25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="vs_a6" scale="1" offset="0">
+    <frame duration="9" displayIndex="-1"/>
+    <frame z="4" duration="30">
+     <transform x="-1.7" y="22.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="-1.7" y="22.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="fla_gx1">
+  <bone name="vs_b7">
+   <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3"/>
+  </bone>
+  <bone name="vs_b6">
+   <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3"/>
+  </bone>
+  <bone name="vs_b5">
+   <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3"/>
+  </bone>
+  <bone name="vs_b4">
+   <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3"/>
+  </bone>
+  <bone name="vs_b3">
+   <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3"/>
+  </bone>
+  <bone name="vs_b2">
+   <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3"/>
+  </bone>
+  <bone name="vs_b1">
+   <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3"/>
+  </bone>
+  <skin name="">
+   <slot name="vs_b1" parent="vs_b1" z="0">
+    <display name="vs_tx1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.6" pY="61.25"/>
+    </display>
+   </slot>
+   <slot name="vs_b2" parent="vs_b2" z="1">
+    <display name="vs_tx2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.6" pY="61.25"/>
+    </display>
+   </slot>
+   <slot name="vs_b3" parent="vs_b3" z="2">
+    <display name="vs_tx3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.6" pY="61.25"/>
+    </display>
+   </slot>
+   <slot name="vs_b4" parent="vs_b4" z="3">
+    <display name="vs_tx4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.6" pY="61.25"/>
+    </display>
+   </slot>
+   <slot name="vs_b5" parent="vs_b5" z="4">
+    <display name="vs_tx5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.6" pY="61.25"/>
+    </display>
+   </slot>
+   <slot name="vs_b6" parent="vs_b6" z="5">
+    <display name="vs_tx6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.6" pY="61.25"/>
+    </display>
+   </slot>
+   <slot name="vs_b7" parent="vs_b7" z="6">
+    <display name="vs_tx7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.6" pY="61.25"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="play" fadeInTime="0" duration="27" scale="2.5" loop="1" tweenEasing="NaN">
+   <timeline name="vs_b1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="26" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_b2" scale="1" offset="0">
+    <frame duration="1" displayIndex="-1"/>
+    <frame z="1" duration="1">
+     <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="25" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_b3" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="2" duration="1">
+     <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="24" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_b4" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="3" duration="1">
+     <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_b5" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="4" duration="1">
+     <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="22" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_b6" scale="1" offset="0">
+    <frame duration="5" displayIndex="-1"/>
+    <frame z="5" duration="1">
+     <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_b7" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="6" duration="1">
+     <transform x="1" y="-1.55" skX="0" skY="0" scX="2.3" scY="2.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="20" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="fla_a20">
+  <bone name="vs_c9">
+   <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="vs_c8">
+   <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="vs_c7">
+   <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="vs_c6">
+   <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="vs_c5">
+   <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="vs_c4">
+   <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="vs_c3">
+   <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="vs_c2">
+   <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="vs_c1">
+   <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <skin name="">
+   <slot name="vs_c1" parent="vs_c1" z="0">
+    <display name="fla_a21" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="51.25"/>
+    </display>
+   </slot>
+   <slot name="vs_c2" parent="vs_c2" z="1">
+    <display name="fla_a22" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="51.25"/>
+    </display>
+   </slot>
+   <slot name="vs_c3" parent="vs_c3" z="2">
+    <display name="fla_a23" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="51.25"/>
+    </display>
+   </slot>
+   <slot name="vs_c4" parent="vs_c4" z="3">
+    <display name="fla_a24" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="51.25"/>
+    </display>
+   </slot>
+   <slot name="vs_c5" parent="vs_c5" z="4">
+    <display name="fla_a25" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="51.25"/>
+    </display>
+   </slot>
+   <slot name="vs_c6" parent="vs_c6" z="5">
+    <display name="fla_a26" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="51.25"/>
+    </display>
+   </slot>
+   <slot name="vs_c7" parent="vs_c7" z="6">
+    <display name="fla_a27" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="51.25"/>
+    </display>
+   </slot>
+   <slot name="vs_c8" parent="vs_c8" z="7">
+    <display name="fla_a28" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="51.25"/>
+    </display>
+   </slot>
+   <slot name="vs_c9" parent="vs_c9" z="8">
+    <display name="fla_a29" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="51.25"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="play" fadeInTime="0" duration="51" scale="2.5" loop="1" tweenEasing="NaN">
+   <timeline name="vs_c1" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="49" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_c2" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="1" duration="2">
+     <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="47" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_c3" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="2" duration="2">
+     <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="45" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_c4" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="3" duration="2">
+     <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="43" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_c5" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="4" duration="2">
+     <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="41" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_c6" scale="1" offset="0">
+    <frame duration="10" displayIndex="-1"/>
+    <frame z="5" duration="2">
+     <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="39" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_c7" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="6" duration="2">
+     <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="37" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_c8" scale="1" offset="0">
+    <frame duration="14" displayIndex="-1"/>
+    <frame z="7" duration="2">
+     <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="35" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vs_c9" scale="1" offset="0">
+    <frame duration="16" displayIndex="-1"/>
+    <frame z="8" duration="2">
+     <transform x="0" y="-0.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="33" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="boyaa_ad_download_texy">ดาวนโลต์</string>
+    <string name="boyaa_ad_title_applist">เกมส์ฮอต</string>
+    <string name="boyaa_ad_start_download_app">%s กำลังดาวนโลต์อยู่</string>
+    <string name="boyaa_ad_text_continue">เล่นต่อ</string>
+    <string name="boyaa_ad_text_exit">ออกจากเกม</string>
+
+    <string name="boyaa_ad_network_error">สภาพอินเตอร์เน็ตไม่ดี กรุณาเช็คก่อนค่ะ</string>
+    <string name="boyaa_ad_no_ad_tip">เจอกันพรุ่งนี้จ๊ะ</string>
+    <string name="boyaa_ad_float_text">แนะนำ</string>
+    <string name="boyaa_ad_install">ติดตั้ง</string>
+    <string name="boyaa_ad_get_faile"> รับแล้ว </string>
+    <string name="boyaa_ad_get_server_faile">อินเตอร์เน็ตไม่ดี ลองเช็คอีกที</string>
+     <string name="boyaa_ad_task_undone"> ยังไม่สำเร็จ</string>
+</resources>
+
+
+
+
+
+

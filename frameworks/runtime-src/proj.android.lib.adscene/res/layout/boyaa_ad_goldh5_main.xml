@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/boyaa_ad_goldh5_fl_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+      android:background="@drawable/boyaa_ad_h5_bg"
+    >
+       
+    <LinearLayout
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+         
+        <LinearLayout 
+            android:id="@+id/boyaa_ad_ll_goldwebview_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <com.boyaa.boyaaad.widget.CusWebView
+             android:visibility="invisible"
+            android:id="@+id/boyaa_ad_goldwb"
+             android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/boyaa_ad_goldh5_btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@null"
+        android:src="@drawable/boyaa_ad_close" />
+ <ProgressBar
+            android:id="@+id/boyaa_ad_pb_h5gold"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminateDrawable="@drawable/boyaa_ad_drawable_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

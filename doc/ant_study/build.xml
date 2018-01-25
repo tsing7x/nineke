@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Ant Test" default="location">
+
+    <property name = "build.dir" value = "build"/>
+	<property name = "build.classes" value = "${build.dir}/classes"/>
+	<property name = "build.lib" value = "${build.dir}/lib"/>
+
+	<target name = "prepare">
+		<mkdir dir = "${build.dir}"/>
+		<mkdir dir = "${build.classes}"/>
+		<mkdir dir = "${build.lib}"/>
+	</target>
+	
+	<target name = "clean" description = "remove lib" depends = "prepare">
+		<delete dir = "${build.lib}" />
+	</target>
+	
+	<!-- 先设定boolean值 -->
+	<property name="success" value="true" />
+	<property name="fail" value="false"/>
+	
+	<!-- 特性名为complete01,当内嵌判断为true时则赋值为value,否则赋值为else -->
+	<condition property="complete01"  else="Doing...">
+	<!-- istrue直接进行条件判断 -->
+	<istrue value="${success}" />
+	</condition>
+	
+	<!-- not:对isfalse的结果进行再次运算。当内嵌判断为为false，complete02仍然未定义-->
+	<condition property="complete02" value="Done!" >
+	<not>
+	<isfalse value="${fail}"/>
+	</not>
+	</condition>
+	
+	<!-- and:多重判断 and内嵌条件都应为true，property值才被赋值为value-->
+	<condition property="complete03" value="Done!" else="Doing...">
+	<and>
+	<isfalse value="${success}"/>
+	<istrue value="${fail}"/>
+	</and>
+	</condition>
+	
+	<condition property="complete04" value="Done!" else="Doing...">
+	<or>
+	<istrue value="${success}"/>
+	<istrue value="${fail}"/>
+	</or>
+	</condition>
+	
+	<condition property="complete05" value="Done!" else="Doing...">
+	<xor>
+	<istrue value="${success}"/>
+	<isfalse value="${fail}"/>
+	</xor>
+	</condition>
+	
+	<target name="Condition" depends="setMacProp,setWindowsProp">
+	<echo message="01:The task status is : ${complete01}" />
+	<echo message="02:The task status is : ${complete02}" />
+	<echo message="03:The task status is : ${complete03}" />
+	<echo message="04:This two tasks have been completed at least one of them : ${complete04}" />
+	<echo message="05:This two params are different from each one : ${complete05}"/>
+	</target>
+	
+	<!--确定操作系统类型和名称-->
+	<condition property="isMac"  >
+        <os family="mac" />
+    </condition>
+	<!--<property name="isMac" value="123" />-->
+
+    <condition property="isWindows" >
+        <os family="windows" />
+    </condition>
+
+    <target name="setMacProp" if="isMac" ><!-- if表示仅当属性设置时才执行，不在乎该属性的值-->
+        <echo message="This isMac"/>
+    </target>
+
+    <target name="setWindowsProp" if="isWindows" >
+        <echo message="This is windows"/>
+    </target>
+	
+	<!--value和location的功能是接近的，都是property的值，但有些小的区别，如果你的property存储的是路径，那么推荐使用location属性，location属性会对路径进行转换，永远返回绝对路径形式。-->
+	<!--当你使用location属性时，值内所有的“/”都会更换为“\”（即绝对路径的形式），而且还会去掉路径中多余的“/”。所以当你使用location属性存储路径信息时更为安全-->
+	<dirname file="${ant.file}" property="current.dir"></dirname>
+	<property location="${current.dir}/2.0/" name="assets.dir"></property>
+	<property value="${current.dir}/2.0/" name="assets.dir2"></property>
+	<target name="location">
+		<echo>location:${assets.dir}</echo>
+		<echo>value:${assets.dir2}</echo>
+	</target>
+	
+</project>

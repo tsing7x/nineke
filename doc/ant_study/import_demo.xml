@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="import_demo" default="deploy">
+	<import file="import_build2.xml"/>
+	<import file="import_build.xml"/>
+	
+	
+	<target name="deploy" depends="deploy_">
+		<echo message="import_demo deploy"/>
+	</target>
+	
+	<target name="link">
+		<echo message="import_demo link"/>
+	</target>
+	
+	<!--调用的是import_build.xml中的 deploy_，哪个先import用哪个xml里的-->
+	<!--<target name="deploy_">
+		<echo message="import_demo deploy_"/>
+	</target> -->
+	
+</project>

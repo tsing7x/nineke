@@ -1,0 +1,13 @@
+<TextureAtlas name="fla_xinshoulb" imagePath="texture.png">
+  <SubTexture name="fla_xinshoulb_sahnsh" x="910" y="105" width="32" height="37"/>
+  <SubTexture name="fla_xinshoulb_guanghanaz" x="392" y="0" width="280" height="280"/>
+  <SubTexture name="fla_xinshoulb_guang" x="910" y="0" width="105" height="103"/>
+  <SubTexture name="fla_xinshoulb_huangx" x="944" y="105" width="22" height="22"/>
+  <SubTexture name="fla_xinshoulb_biaoti" x="674" y="222" width="311" height="54"/>
+  <SubTexture name="fla_xinshoulb_WENBEN" x="979" y="105" width="11" height="11"/>
+  <SubTexture name="fla_xinshoulb_AnNiu" x="967" y="105" width="11" height="11"/>
+  <SubTexture name="fla_xinshoulb_icon" x="674" y="0" width="234" height="220"/>
+  <SubTexture name="fla_xinshoulb_shangbiaoti" x="392" y="282" width="413" height="40"/>
+  <SubTexture name="fla_xinshoulb_xiabiaoti" x="392" y="324" width="404" height="39"/>
+  <SubTexture name="fla_xinshoulb_dibua" x="0" y="0" width="390" height="475"/>
+</TextureAtlas>

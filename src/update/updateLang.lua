@@ -1,0 +1,26 @@
+--
+-- Date: 2014-11-03 15:03:58
+--
+local L = {}
+L.UPDATE = {}
+L.UPDATE.COPY_RIGHT = "Copyright © 2009-2016 Boyaa Interactive...All Rights Reserved."
+L.UPDATE.CHECKING_VERSION = "正在检查版本.."
+L.UPDATE.CHECKING_RES_UPDATE = "正在检查资源更新.."
+L.UPDATE.DOWNLOADING_MSG = "正在下载资源({1}/{2})"
+L.UPDATE.UPDATE_NOW = "现在更新"
+L.UPDATE.UPDATE_LATER = "以后更新"
+L.UPDATE.DOWNLOAD_ERROR = "下载出错"
+L.UPDATE.DOWNLOAD_NOT_IN_WIFI_PROMPT_TITLE = "温馨提示"
+L.UPDATE.SPEED = "下载速度：{1}"
+L.UPDATE.DOWNLOAD_NOT_IN_WIFI_PROMPT_MSG = "您当前使用的网络不是wifi,需要耗费您的手机流量下载{1}的更新包，是否立即下载？"
+L.UPDATE.UPDATE_COMPLETE = "更新完成"
+L.UPDATE.IS_ALREADY_THE_LATEST_VERSION = "已经是最新版本"
+L.UPDATE.BAD_NETWORK_MSG = "网络状况不佳，更新失败"
+L.UPDATE.UPDATE_CANCELED = "更新已经取消"
+L.UPDATE.DOWNLOAD_SIZE = "下载文件大小：{1}"
+L.UPDATE.DOWNLOAD_PROGRESS = "正在下载资源 {1}%"
+L.UPDATE.QUIT_DIALOG_TITLE = "确认退出"
+L.UPDATE.QUIT_DIALOG_MSG = "真的确认退出游戏吗？\\(≧▽≦)/~"
+L.UPDATE.QUIT_DIALOG_CONFIRM = "忍痛退出"
+L.UPDATE.QUIT_DIALOG_CANCEL = "我点错了"
+return L

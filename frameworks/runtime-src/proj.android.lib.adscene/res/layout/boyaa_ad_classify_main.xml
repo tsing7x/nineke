@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_boyaa_ad_classify_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+   <FrameLayout
+        android:layout_gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         >
+    <LinearLayout
+        android:id="@+id/boyaa_ad_classify_ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/boyaa_ad_classify_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/boyaa_ad_classify_item_rl"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/iv_boyaa_ad_left_one"
+                android:orientation="vertical" >
+                
+                    <TextView
+                        android:id="@+id/tv_boyaa_ad_classify_one"
+                        android:layout_width="100dp"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/boyaa_ad_shape_one"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text=""
+                        android:textColor="@android:color/white" />
+
+                <com.boyaa.boyaaad.widget.HorizontialListView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/hl_ad_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                </com.boyaa.boyaaad.widget.HorizontialListView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_boyaa_ad_left_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/boyaa_ad_to_left" />
+            <View 
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/boyaa_ad_line"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+             android:id="@+id/boyaa_ad_classify_item_rl_two"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+             android:visibility="gone"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/iv_boyaa_ad_left_two"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:singleLine="true"
+                   android:layout_marginTop="5dp"
+                    android:id="@+id/tv_boyaa_ad_classify_two"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                   android:background="@drawable/boyaa_ad_shape_two"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text=""
+                    android:textColor="@android:color/white" />
+
+                <com.boyaa.boyaaad.widget.HorizontialListView
+                     android:layout_marginTop="5dp"
+                    android:id="@+id/hl_ad_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                </com.boyaa.boyaaad.widget.HorizontialListView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_boyaa_ad_left_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/boyaa_ad_to_left" />
+            <View 
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/boyaa_ad_line"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/boyaa_ad_classify_item_rl_three"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+             android:visibility="gone"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/iv_boyaa_ad_left_three"
+                android:orientation="vertical" >
+
+                <TextView
+                   android:layout_marginTop="5dp"
+                    android:id="@+id/tv_boyaa_ad_classify_three"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boyaa_ad_shape_three"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text=""
+                    android:singleLine="true"
+                    android:textColor="@android:color/white" />
+
+                <com.boyaa.boyaaad.widget.HorizontialListView
+                    android:id="@+id/hl_ad_three"
+                     android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                </com.boyaa.boyaaad.widget.HorizontialListView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_boyaa_ad_left_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/boyaa_ad_to_left" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:src="@drawable/boyaa_ad_hot" />
+               
+     </FrameLayout>
+    <ImageButton
+        android:id="@+id/btn_boyaa_ad_classify_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@null"
+        android:src="@drawable/boyaa_ad_close" />
+
+</FrameLayout>

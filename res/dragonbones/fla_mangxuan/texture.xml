@@ -1,0 +1,5 @@
+<TextureAtlas name="fla_mangxuan" imagePath="texture.png">
+ <SubTexture name="fla_mangxuan_xingxingss" x="190" y="51" width="21" height="21"/>
+ <SubTexture name="fla_mangxuan_hg" x="190" y="0" width="48" height="49"/>
+ <SubTexture name="元件 2" x="0" y="0" width="188" height="166"/>
+</TextureAtlas>

@@ -1,0 +1,26 @@
+1.项目很多地方滥用变量且变量名取的没意义，导致后期维护，修改UI带来额外工作量；
+
+2.ScrollView的不规范用法：强制设置srcContentPlace_的值和scrollContent位置；
+参考点要以scrollContent填充完内容的一半高度为起始点，至上而下布局！！！！！（这个有些坑，因为基本无法在创建前知道ScrollView的内容高度，所以起始点也无法设置，布局就很坑。ListView没有这个问题，是因为在setData的时候才会创建，根据数据的个数计算高度！！）
+解决方法：创建一个node，把scrollContent结点添加到一个node中，在把node传到ScrollView中；scrollContent起始y坐标为0，添加完内容，scrollContent向上偏移高度一半就好了！！！！
+
+3.个人信息弹窗创建修改名字输入框逻辑有问题，不能编辑就不要创建，而不是关闭触摸！！！！否则导致FB也可以编辑（当在个人信息界面打开一个弹窗，在关闭的时候可以输入）
+
+4.修复先进入博定场，在进入普通场，发送互动道具，位置不对bug；原因是先计入博定场HddjController重新导入了RoomViewPosition，在进入普通场没有改变，导致用的是博定场的位置；
+修改成以下代码：
+if isPdeng then
+	RoomViewPosition = import("app.module.pdeng.views.RoomViewPosition")
+	SeatPosition = clone(RoomViewPosition.SeatPosition)
+	SeatPosition[5] = RoomViewPosition.SelfSeatPosition[2]
+else
+	RoomViewPosition = import("app.module.room.views.RoomViewPosition")
+	SeatPosition = RoomViewPosition.SeatPosition
+end
+
+5.ScrollView:setScrollContentTouchRect()这个接口的作用主要是初始化self.viewRectOriginPoint_;当重写了onScrolling接口，才会用到self.viewRectOriginPoint_；
+
+6.修复ScrollView:hideScrollBar()无效bug；
+
+7.发现黄金币场，最小携带和最大买入显示有问题，因为数据不统一，导致的BUG，现已修复；
+
+8.

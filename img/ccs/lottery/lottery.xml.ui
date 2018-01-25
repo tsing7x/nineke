@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>E:\work\lua\NineKe\ccs\lottery</ProjectDir>
+  <Version>1.6.0.0</Version>
+  <Resources>E:\work\lua\NineKe\ccs\lottery\Resources</Resources>
+  <Name>lottery</Name>
+  <JsonFileName>lottery.json</JsonFileName>
+  <JsonFolder>E:\work\lua\NineKe\ccs\lottery\Json</JsonFolder>
+  <JsonList>
+    <string>lottery_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>E:\work\lua\NineKe\ccs\lottery\lottery.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>lottery0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson />
+</UIProject>

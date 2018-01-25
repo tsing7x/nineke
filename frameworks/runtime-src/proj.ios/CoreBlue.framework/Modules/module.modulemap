@@ -1,0 +1,6 @@
+framework module CoreBlue {
+  umbrella header "CoreBlue.h"
+
+  export *
+  module * { export * }
+}

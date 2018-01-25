@@ -1,0 +1,34 @@
+<TextureAtlas name="fla_touziwin" imagePath="texture.png">
+  <SubTexture name="fla_touziwin_huangx2" x="956" y="70" width="54" height="68"/>
+  <SubTexture name="fla_touziwin_gdiandian" x="782" y="462" width="37" height="39"/>
+  <SubTexture name="fla_touziwin_shixingxing" x="986" y="436" width="33" height="41"/>
+  <SubTexture name="fla_touziwin_wei" x="654" y="569" width="82" height="9"/>
+  <SubTexture name="fla_touziwin_hhuangx2" x="956" y="0" width="54" height="68"/>
+  <SubTexture name="fla_touziwin_xing" x="947" y="378" width="48" height="49"/>
+  <SubTexture name="fla_touziwin_paodai6" x="1006" y="292" width="16" height="19"/>
+  <SubTexture name="fla_touziwin_paodai5" x="984" y="478" width="18" height="16"/>
+  <SubTexture name="fla_touziwin_paodai4" x="997" y="378" width="24" height="56"/>
+  <SubTexture name="fla_touziwin_paodai3" x="913" y="448" width="25" height="19"/>
+  <SubTexture name="fla_touziwin_paodai2" x="964" y="471" width="18" height="18"/>
+  <SubTexture name="fla_touziwin_paodai1" x="933" y="471" width="29" height="24"/>
+  <SubTexture name="fla_touziwin_椭圆 9" x="1008" y="240" width="13" height="13"/>
+  <SubTexture name="fla_touziwin_zxczxczxca" x="913" y="469" width="18" height="18"/>
+  <SubTexture name="fla_touziwin_asdqq" x="869" y="533" width="147" height="59"/>
+  <SubTexture name="fla_touziwin_kuangq" x="654" y="607" width="196" height="82"/>
+  <SubTexture name="fla_touziwin_mochi" x="940" y="429" width="44" height="40"/>
+  <SubTexture name="fla_touziwin_weichiaq" x="830" y="448" width="81" height="74"/>
+  <SubTexture name="fla_touziwin_zhongchi4" x="956" y="140" width="64" height="52"/>
+  <SubTexture name="fla_touziwin_zhongchi3" x="782" y="563" width="79" height="42"/>
+  <SubTexture name="fla_touziwin_zhongchi2" x="947" y="343" width="67" height="33"/>
+  <SubTexture name="fla_touziwin_dachibang1" x="830" y="330" width="115" height="66"/>
+  <SubTexture name="fla_touziwin_chibang2" x="830" y="398" width="108" height="48"/>
+  <SubTexture name="fla_touziwin_chibang3" x="913" y="497" width="98" height="34"/>
+  <SubTexture name="fla_touziwin_chibangs4" x="782" y="524" width="85" height="37"/>
+  <SubTexture name="fla_touziwin_dachibang" x="956" y="194" width="66" height="44"/>
+  <SubTexture name="fla_touziwin_yingzi" x="654" y="330" width="174" height="130"/>
+  <SubTexture name="fla_touziwin_huangguang" x="654" y="462" width="126" height="105"/>
+  <SubTexture name="fla_touziwin_bu" x="654" y="0" width="300" height="328"/>
+  <SubTexture name="fla_touziwin_hg" x="956" y="292" width="48" height="49"/>
+  <SubTexture name="fla_touziwin_图层 1987" x="956" y="240" width="50" height="50"/>
+  <SubTexture name="fla_touziwin_light " x="0" y="0" width="652" height="618"/>
+</TextureAtlas>

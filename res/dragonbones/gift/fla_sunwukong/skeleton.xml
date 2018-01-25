@@ -1,0 +1,1286 @@
+<dragonBones name="fla_sunwukong" frameRate="60" version="2.3">
+  <armature name="fla_sunwukong">
+    <bone name="图层 2">
+      <transform x="-4.9" y="25.25" skX="0" skY="180" scX="1.71" scY="1"/>
+    </bone>
+    <bone name="sunwukong_sucai25">
+      <transform x="-0.95" y="18.8" skX="-167.06" skY="12.94" scX="1.62" scY="1.62"/>
+    </bone>
+    <bone name="sunwukong_sucai24">
+      <transform x="8.6" y="33.9" skX="-28.44" skY="-28.44" scX="1.35" scY="1.35"/>
+    </bone>
+    <bone name="sunwukong_sucai23">
+      <transform x="14.7" y="41.25" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_sucai22">
+      <transform x="28" y="18.65" skX="0" skY="0" scX="1.51" scY="1.51"/>
+    </bone>
+    <bone name="sunwukong_sucai21">
+      <transform x="15.35" y="14.85" skX="-9.21" skY="-9.21" scX="3.35" scY="3.35"/>
+    </bone>
+    <bone name="sunwukong_sucai20">
+      <transform x="13.95" y="13.15" skX="-9.21" skY="-9.21" scX="1.76" scY="1.76"/>
+    </bone>
+    <bone name="sunwukong_sucai19">
+      <transform x="14.45" y="11.25" skX="-9.21" skY="-9.21" scX="1.76" scY="1.76"/>
+    </bone>
+    <bone name="sunwukong_sucai168">
+      <transform x="16.15" y="11.95" skX="-9.21" skY="-9.21" scX="1.76" scY="1.76"/>
+    </bone>
+    <bone name="sunwukong_sucai17">
+      <transform x="19.8" y="7.35" skX="-9.21" skY="-9.21" scX="1.76" scY="1.76"/>
+    </bone>
+    <bone name="sunwukong_sucai16">
+      <transform x="12.65" y="11.6" skX="0" skY="0" scX="1.55" scY="1.89"/>
+    </bone>
+    <bone name="sunwukong_shoula1">
+      <transform x="-21.35" y="-7.85" skX="-77.91" skY="-77.91" scX="1" scY="1.45"/>
+    </bone>
+    <bone name="sunwukong_toubua">
+      <transform x="-18.2" y="-11.65" skX="-6.21" skY="-6.21" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_zhouboaq">
+      <transform x="-12" y="-13.45" skX="-6.21" skY="-6.21" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_jingjian">
+      <transform x="-13.1" y="-13.55" skX="-6.21" skY="-6.21" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_jingjiana2">
+      <transform x="-11.7" y="-13.75" skX="-6.21" skY="-6.21" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_buzishangweijing">
+      <transform x="-19.7" y="-10.2" skX="-6.21" skY="-6.21" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_shoula0">
+      <transform x="-24.55" y="-16.65" skX="165.79" skY="165.79" scX="0.88" scY="0.77"/>
+    </bone>
+    <bone name="sunwukong_gunzi">
+      <transform x="-42.6" y="-16.7" skX="37" skY="37" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_shengaczz">
+      <transform x="-26.4" y="-13.15" skX="8.95" skY="8.95" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_shangshenga">
+      <transform x="-16.45" y="1.5" skX="-6.21" skY="-6.21" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_xiayunbai">
+      <transform x="-16.7" y="-2.25" skX="-0.72" skY="-0.72" scX="1" scY="1.16"/>
+    </bone>
+    <bone name="sunwukong_tuizhizhyi">
+      <transform x="-20.4" y="0.85" skX="-6.21" skY="-6.21" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_tuibua">
+      <transform x="-12.1" y="0.95" skX="-6.21" skY="-6.21" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_shoula">
+      <transform x="-17.1" y="-11.85" skX="-82.4" skY="-82.4" scX="1" scY="1.62"/>
+    </bone>
+    <bone name="sunwukong_sucai15">
+      <transform x="-0.95" y="18.8" skX="-167.06" skY="12.94" scX="1.62" scY="1.62"/>
+    </bone>
+    <bone name="sunwukong_sucai14">
+      <transform x="8.6" y="33.9" skX="-28.44" skY="-28.44" scX="1.35" scY="1.35"/>
+    </bone>
+    <bone name="sunwukong_sucai13">
+      <transform x="14.7" y="41.25" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_sucai12">
+      <transform x="28" y="18.65" skX="0" skY="0" scX="1.51" scY="1.51"/>
+    </bone>
+    <bone name="sunwukong_sucai11">
+      <transform x="40.45" y="21.6" skX="132.76" skY="132.76" scX="0.9" scY="0.9"/>
+    </bone>
+    <bone name="sunwukong_sucai10">
+      <transform x="27.05" y="-6.5" skX="117.01" skY="117.01" scX="1.03" scY="1.03"/>
+    </bone>
+    <bone name="sunwukong_sucai9">
+      <transform x="29.55" y="6.4" skX="-2.24" skY="-2.24" scX="1.62" scY="1.62"/>
+    </bone>
+    <bone name="sunwukong_sucai8">
+      <transform x="33.75" y="33.65" skX="-152.5" skY="-152.5" scX="1.59" scY="1.59"/>
+    </bone>
+    <bone name="sunwukong_sucai7">
+      <transform x="-2" y="36.1" skX="0" skY="0" scX="0.49" scY="0.49"/>
+    </bone>
+    <bone name="sunwukong_sucai2">
+      <transform x="-13.05" y="30.7" skX="155.8" skY="155.8" scX="1.62" scY="1.62"/>
+    </bone>
+    <bone name="sunwukong_sucai40">
+      <transform x="-6.8" y="42.35" skX="-38.48" skY="-38.48" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_sucai6">
+      <transform x="12" y="7.6" skX="0" skY="0" scX="0.49" scY="0.49"/>
+    </bone>
+    <bone name="sunwukong_sucai5">
+      <transform x="-15.3" y="11.5" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_sucai4">
+      <transform x="8.9" y="2.6" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_sucai">
+      <transform x="0.1" y="8.95" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="sunwukong_yingzi">
+      <transform x="4.7" y="6.6" skX="0" skY="0" scX="1.4" scY="1.4"/>
+    </bone>
+    <skin name="">
+      <slot name="sunwukong_yingzi" parent="sunwukong_yingzi" z="0">
+        <display name="fla_sunwukong_sadishanzgwen" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="34.4" pY="29.3"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai" parent="sunwukong_sucai" z="1">
+        <display name="fla_sunwukong_teoxap2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="5.05" pY="4.7"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai4" parent="sunwukong_sucai4" z="2">
+        <display name="fla_sunwukong_teoxap3" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="6.05" pY="4.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai5" parent="sunwukong_sucai5" z="3">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0.049" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai6" parent="sunwukong_sucai6" z="4">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai40" parent="sunwukong_sucai40" z="5">
+        <display name="fla_sunwukong_teoxap2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="5.05" pY="4.7"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai2" parent="sunwukong_sucai2" z="6">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai7" parent="sunwukong_sucai7" z="7">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai8" parent="sunwukong_sucai8" z="8">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0.049" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai9" parent="sunwukong_sucai9" z="9">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai10" parent="sunwukong_sucai10" z="10">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai11" parent="sunwukong_sucai11" z="11">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai12" parent="sunwukong_sucai12" z="12">
+        <display name="fla_sunwukong_teoxap2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="5.05" pY="4.7"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai13" parent="sunwukong_sucai13" z="13">
+        <display name="fla_sunwukong_teoxap2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="5.05" pY="4.7"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai14" parent="sunwukong_sucai14" z="14">
+        <display name="fla_sunwukong_teoxap3" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="6.05" pY="4.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai15" parent="sunwukong_sucai15" z="15">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_shoula" parent="sunwukong_shoula" z="17">
+        <display name="fla_sunwukong_shoula" type="image">
+          <transform x="2.799" y="-8.2" skX="0" skY="0" scX="1" scY="1" pX="5" pY="11.1"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_tuibua" parent="sunwukong_tuibua" z="18">
+        <display name="fla_sunwukong_tuibua" type="image">
+          <transform x="2.099" y="5.699" skX="0" skY="0" scX="1" scY="1" pX="6.6" pY="7.4"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_tuizhizhyi" parent="sunwukong_tuizhizhyi" z="19">
+        <display name="fla_sunwukong_tuizhizhyi" type="image">
+          <transform x="-4.05" y="7.099" skX="0" skY="0" scX="1" scY="1" pX="9.15" pY="10"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_xiayunbai" parent="sunwukong_xiayunbai" z="20">
+        <display name="fla_sunwukong_xiayunbai" type="image">
+          <transform x="-0.1" y="4.999" skX="0" skY="0" scX="1" scY="1" pX="14.2" pY="7.3"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_shangshenga" parent="sunwukong_shangshenga" z="21">
+        <display name="fla_sunwukong_shangshenga" type="image">
+          <transform x="-0.2" y="-8" skX="0" skY="0" scX="1" scY="1" pX="7.4" pY="8.6"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_shengaczz" parent="sunwukong_shengaczz" z="22">
+        <display name="fla_sunwukong_shengbba" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.8" pY="8.8"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_gunzi" parent="sunwukong_gunzi" z="23">
+        <display name="fla_sunwukong_gunzi" type="image">
+          <transform x="-7.6" y="17.749" skX="0" skY="0" scX="1" scY="1" pX="12.45" pY="23.35"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_shoula0" parent="sunwukong_shoula0" z="24">
+        <display name="fla_sunwukong_shoula" type="image">
+          <transform x="2.699" y="-8.2" skX="0" skY="0" scX="1" scY="1" pX="5" pY="11.1"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_buzishangweijing" parent="sunwukong_buzishangweijing" z="25">
+        <display name="fla_sunwukong_buzishangweijing" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="3.85"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_jingjiana2" parent="sunwukong_jingjiana2" z="26">
+        <display name="fla_sunwukong_jingjiana2" type="image">
+          <transform x="2.499" y="0" skX="0" skY="0" scX="1" scY="1" pX="3.1" pY="2.1"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_jingjian" parent="sunwukong_jingjian" z="27">
+        <display name="fla_sunwukong_jingjian" type="image">
+          <transform x="-2.1" y="2.249" skX="0" skY="0" scX="1" scY="1" pX="3.35" pY="3.1"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_zhouboaq" parent="sunwukong_zhouboaq" z="28">
+        <display name="fla_sunwukong_zhouboaq" type="image">
+          <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="1.4" pY="1.3"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_toubua" parent="sunwukong_toubua" z="29">
+        <display name="fla_sunwukong_toubua" type="image">
+          <transform x="-7.6" y="-18.6" skX="0" skY="0" scX="1" scY="1" pX="23.45" pY="24.8"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_shoula1" parent="sunwukong_shoula1" z="30">
+        <display name="fla_sunwukong_shoula" type="image">
+          <transform x="2.599" y="-8.2" skX="0" skY="0" scX="1" scY="1" pX="5" pY="11.1"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai16" parent="sunwukong_sucai16" z="31">
+        <display name="fla_sunwukong_gunguang" type="image">
+          <transform x="-18.8" y="-32.8" skX="0" skY="0" scX="1" scY="1" pX="19.65" pY="14.2"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai17" parent="sunwukong_sucai17" z="32">
+        <display name="fla_sunwukong_teoxap5" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="26.35" pY="25.2"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai168" parent="sunwukong_sucai168" z="33">
+        <display name="fla_sunwukong_teoxap6" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="29.65" pY="23.4"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai19" parent="sunwukong_sucai19" z="34">
+        <display name="fla_sunwukong_teoxap7" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="34.7" pY="27.2"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai20" parent="sunwukong_sucai20" z="35">
+        <display name="fla_sunwukong_teoxap8" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="38.65" pY="29.35"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai21" parent="sunwukong_sucai21" z="36">
+        <display name="fla_sunwukong_teoxap" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="23.75" pY="17.6"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai22" parent="sunwukong_sucai22" z="37">
+        <display name="fla_sunwukong_teoxap2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="5.05" pY="4.7"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai23" parent="sunwukong_sucai23" z="38">
+        <display name="fla_sunwukong_teoxap2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="5.05" pY="4.7"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai24" parent="sunwukong_sucai24" z="39">
+        <display name="fla_sunwukong_teoxap3" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="6.05" pY="4.65"/>
+        </display>
+      </slot>
+      <slot name="sunwukong_sucai25" parent="sunwukong_sucai25" z="40">
+        <display name="fla_sunwukong_teoxap4" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.7" pY="3.65"/>
+        </display>
+      </slot>
+      <slot name="图层 2" parent="图层 2" z="16">
+        <display name="fla_ChangJingQH_yun3" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="14" pY="9.5"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="play" fadeInTime="0" duration="35" scale="2.5" loop="1" tweenEasing="NaN">
+      <timeline name="sunwukong_yingzi" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="0" duration="1">
+          <transform x="4.7" y="6.6" skX="0" skY="0" scX="1.4" scY="1.4" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" duration="1">
+          <transform x="4.3" y="5.8" skX="0" skY="0" scX="1.4" scY="1.4" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" duration="1">
+          <transform x="4.7" y="7.4" skX="0" skY="0" scX="1.4" scY="1.4" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" duration="1">
+          <transform x="5.5" y="6.6" skX="0" skY="0" scX="1.4" scY="1.4" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" duration="1">
+          <transform x="3.9" y="6.6" skX="0" skY="0" scX="1.4" scY="1.4" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" duration="10">
+          <transform x="4.7" y="6.6" skX="0" skY="0" scX="1.4" scY="1.4" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" tweenEasing="0" duration="9">
+          <transform x="4.7" y="6.6" skX="0" skY="0" scX="1.4" scY="1.4" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" duration="1">
+          <transform x="4.7" y="6.6" skX="0" skY="0" scX="1.4" scY="1.4" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_sucai" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="1" tweenEasing="0" duration="4">
+          <transform x="0.1" y="8.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" tweenEasing="0" duration="7">
+          <transform x="1.05" y="11.05" skX="-37.85" skY="-17.57" scX="0.83" scY="0.94" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" duration="1">
+          <transform x="2.15" y="13.55" skX="-83.32" skY="-38.94" scX="0.63" scY="0.88" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="13" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai4" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="2" tweenEasing="0" duration="4">
+          <transform x="8.9" y="2.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="2" tweenEasing="0" duration="4">
+          <transform x="8.85" y="2.6" skX="34.86" skY="11.77" scX="0.9" scY="0.86" pX="0" pY="0"/>
+        </frame>
+        <frame z="2" duration="1">
+          <transform x="8.9" y="2.6" skX="76.86" skY="25.95" scX="0.79" scY="0.7" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="16" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai5" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="3" tweenEasing="0" duration="4">
+          <transform x="-15.3" y="11.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="3" tweenEasing="0" duration="7">
+          <transform x="-13.2" y="12.95" skX="0" skY="0" scX="1" scY="0.73" pX="0" pY="0"/>
+        </frame>
+        <frame z="3" duration="1">
+          <transform x="-10.7" y="14.7" skX="0" skY="0" scX="1" scY="0.4" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="13" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai6" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="4" tweenEasing="0" duration="4">
+          <transform x="12" y="7.6" skX="0" skY="0" scX="0.49" scY="0.49" pX="0" pY="0"/>
+        </frame>
+        <frame z="4" tweenEasing="0" duration="6">
+          <transform x="12.55" y="8.55" skX="54.12" skY="54.12" scX="0.49" scY="0.36" pX="0" pY="0"/>
+        </frame>
+        <frame z="4" duration="1">
+          <transform x="13.25" y="9.65" skX="118.81" skY="118.81" scX="0.49" scY="0.22" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="14" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai40" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="5" tweenEasing="0" duration="4">
+          <transform x="-6.8" y="42.35" skX="-38.48" skY="-38.48" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" tweenEasing="0" duration="7">
+          <transform x="-5.9" y="42.95" skX="-52.13" skY="-38.38" scX="0.88" scY="0.92" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" duration="1">
+          <transform x="-4.8" y="43.55" skX="-68.36" skY="-38.48" scX="0.74" scY="0.82" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="13" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai2" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="6" tweenEasing="0" duration="4">
+          <transform x="-13.05" y="30.7" skX="155.8" skY="155.8" scX="1.62" scY="1.62" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" tweenEasing="0" duration="6">
+          <transform x="-12.5" y="31.95" skX="135.6" skY="155.92" scX="1.43" scY="1.13" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" duration="1">
+          <transform x="-11.85" y="33.3" skX="111.23" skY="155.8" scX="1.21" scY="0.56" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="14" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai7" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="7" tweenEasing="0" duration="4">
+          <transform x="-2" y="36.1" skX="0" skY="0" scX="0.49" scY="0.49" pX="0" pY="0"/>
+        </frame>
+        <frame z="7" tweenEasing="0" duration="5">
+          <transform x="-1.4" y="36.95" skX="0" skY="0" scX="0.49" scY="0.31" pX="0" pY="0"/>
+        </frame>
+        <frame z="7" duration="1">
+          <transform x="-0.65" y="37.95" skX="0" skY="0" scX="0.49" scY="0.11" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="15" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai8" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="8" tweenEasing="0" duration="6">
+          <transform x="33.75" y="33.65" skX="-152.5" skY="-152.5" scX="1.59" scY="1.59" pX="0" pY="0"/>
+        </frame>
+        <frame z="8" tweenEasing="0" duration="5">
+          <transform x="35" y="36.2" skX="-128.62" skY="-152.65" scX="1.17" scY="1.17" pX="0" pY="0.05"/>
+        </frame>
+        <frame z="8" duration="1">
+          <transform x="36.55" y="39.2" skX="-100.1" skY="-152.5" scX="0.67" scY="0.66" pX="-0.05" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="13" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai9" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="9" tweenEasing="0" duration="4">
+          <transform x="29.55" y="6.4" skX="-2.24" skY="-2.24" scX="1.62" scY="1.62" pX="0" pY="0"/>
+        </frame>
+        <frame z="9" tweenEasing="0" duration="4">
+          <transform x="30.05" y="7.8" skX="5.28" skY="-10.51" scX="1.35" scY="1.18" pX="0" pY="0"/>
+        </frame>
+        <frame z="9" duration="1">
+          <transform x="30.75" y="9.35" skX="14.49" skY="-20.45" scX="1.03" scY="0.66" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="16" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai10" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="10" tweenEasing="0" duration="4">
+          <transform x="27.05" y="-6.5" skX="117.01" skY="117.01" scX="1.03" scY="1.03" pX="0" pY="0"/>
+        </frame>
+        <frame z="10" tweenEasing="0" duration="5">
+          <transform x="26" y="-3.4" skX="138.14" skY="117.04" scX="0.83" scY="0.95" pX="0" pY="0"/>
+        </frame>
+        <frame z="10" duration="1">
+          <transform x="24.85" y="0.3" skX="163.52" skY="117.01" scX="0.58" scY="0.84" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="15" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai11" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="11" tweenEasing="0" duration="3">
+          <transform x="40.45" y="21.6" skX="132.76" skY="132.76" scX="0.9" scY="0.9" pX="0" pY="0"/>
+        </frame>
+        <frame z="11" tweenEasing="0" duration="7">
+          <transform x="40.5" y="21.6" skX="172.2" skY="154.67" scX="0.89" scY="0.79" pX="0" pY="0"/>
+        </frame>
+        <frame z="11" duration="1">
+          <transform x="40.45" y="21.6" skX="-140.82" skY="-179.29" scX="0.9" scY="0.66" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="14" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai12" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="12" tweenEasing="0" duration="4">
+          <transform x="28" y="18.65" skX="0" skY="0" scX="1.51" scY="1.51" pX="0" pY="0"/>
+        </frame>
+        <frame z="12" tweenEasing="0" duration="3">
+          <transform x="27.95" y="18.65" skX="-12.56" skY="0" scX="1.41" scY="1.14" pX="0" pY="0"/>
+        </frame>
+        <frame z="12" duration="1">
+          <transform x="28" y="18.65" skX="-27.99" skY="0" scX="1.29" scY="0.69" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="17" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai13" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="13" tweenEasing="0" duration="4">
+          <transform x="14.7" y="41.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="13" tweenEasing="0" duration="7">
+          <transform x="14.7" y="41.2" skX="2.04" skY="2.04" scX="1" scY="0.72" pX="0" pY="0"/>
+        </frame>
+        <frame z="13" duration="1">
+          <transform x="14.7" y="41.25" skX="4.73" skY="4.73" scX="1" scY="0.38" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="13" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai14" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="14" tweenEasing="0" duration="3">
+          <transform x="8.6" y="33.9" skX="-28.44" skY="-28.44" scX="1.35" scY="1.35" pX="0" pY="0"/>
+        </frame>
+        <frame z="14" tweenEasing="0" duration="6">
+          <transform x="9.35" y="34.35" skX="-27.06" skY="-28.34" scX="1.35" scY="0.95" pX="0" pY="0"/>
+        </frame>
+        <frame z="14" duration="1">
+          <transform x="10.4" y="34.8" skX="-25.43" skY="-28.44" scX="1.35" scY="0.46" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="15" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai15" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="15" tweenEasing="0" duration="3">
+          <transform x="-0.95" y="18.8" skX="-167.06" skY="12.94" scX="1.62" scY="1.62" pX="0" pY="0"/>
+        </frame>
+        <frame z="15" tweenEasing="0" duration="4">
+          <transform x="-0.25" y="22" skX="-162.22" skY="17.78" scX="1.45" scY="1.22" pX="0" pY="0"/>
+        </frame>
+        <frame z="15" duration="1">
+          <transform x="0.65" y="26" skX="-156.36" skY="23.64" scX="1.25" scY="0.75" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="17" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_shoula" scale="1" offset="0">
+        <frame z="17" tweenEasing="0" duration="4">
+          <transform x="-17.1" y="-11.85" skX="-82.4" skY="-82.4" scX="1" scY="1.62" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="17" tweenEasing="0" duration="5">
+          <transform x="-18.95" y="-24.3" skX="-100.06" skY="-99.01" scX="0.99" scY="1.67" pX="0" pY="0"/>
+        </frame>
+        <frame z="17" duration="1">
+          <transform x="-21.1" y="-40" skX="-122.54" skY="-119.83" scX="0.99" scY="1.72" pX="-0.05" pY="0"/>
+        </frame>
+        <frame z="17" tweenEasing="0" duration="12">
+          <transform x="-17.8" y="-16.65" skX="176.64" skY="176.64" scX="0.74" scY="0.85" pX="-0.05" pY="0.2"/>
+        </frame>
+        <frame z="17" tweenEasing="0" duration="5">
+          <transform x="-17.8" y="-7.05" skX="176.64" skY="176.64" scX="0.74" scY="0.85" pX="-0.05" pY="0.2"/>
+        </frame>
+        <frame z="17" tweenEasing="0" duration="6">
+          <transform x="33.85" y="-55.7" skX="108.43" skY="108.43" scX="0.74" scY="0.85" pX="-0.1" pY="0.15"/>
+        </frame>
+        <frame z="17" duration="1">
+          <transform x="58.75" y="-123.3" skX="108.43" skY="108.43" scX="0.74" scY="0.85" pX="-0.05" pY="0.2"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_tuibua" scale="1" offset="0">
+        <frame z="18" tweenEasing="0" duration="4">
+          <transform x="-12.1" y="0.95" skX="-6.21" skY="-6.21" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="18" tweenEasing="0" duration="5">
+          <transform x="-10.4" y="-13.65" skX="-4.81" skY="-8.3" scX="1.02" scY="0.97" pX="0.05" pY="0"/>
+        </frame>
+        <frame z="18" duration="1">
+          <transform x="-8.3" y="-31.9" skX="-3.43" skY="-11.19" scX="1.05" scY="0.93" pX="0.1" pY="0.05"/>
+        </frame>
+        <frame z="18" tweenEasing="0" duration="12">
+          <transform x="-24.75" y="-4.85" skX="43.92" skY="38.23" scX="1" scY="0.86" pX="0" pY="0"/>
+        </frame>
+        <frame z="18" tweenEasing="0" duration="5">
+          <transform x="-24.8" y="4.7" skX="16.52" skY="18.03" scX="1" scY="0.8" pX="0.05" pY="0"/>
+        </frame>
+        <frame z="18" tweenEasing="0" duration="6">
+          <transform x="34.3" y="-43.6" skX="16.52" skY="18.03" scX="1" scY="0.8" pX="0.05" pY="0"/>
+        </frame>
+        <frame z="18" duration="1">
+          <transform x="59.2" y="-111.2" skX="16.52" skY="18.03" scX="1" scY="0.8" pX="0.05" pY="-0.05"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_tuizhizhyi" scale="1" offset="0">
+        <frame z="19" tweenEasing="0" duration="4">
+          <transform x="-20.4" y="0.85" skX="-6.21" skY="-6.21" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="19" tweenEasing="0" duration="5">
+          <transform x="-18.9" y="-12.35" skX="-3.29" skY="-6.81" scX="1" scY="1.03" pX="-0.05" pY="-0.05"/>
+        </frame>
+        <frame z="19" duration="1">
+          <transform x="-17.15" y="-28.95" skX="0.14" skY="-7.96" scX="1" scY="1.06" pX="-0.1" pY="0.05"/>
+        </frame>
+        <frame z="19" tweenEasing="0" duration="12">
+          <transform x="-32.95" y="-5.85" skX="-67.33" skY="-62.95" scX="1" scY="1" pX="0" pY="0.05"/>
+        </frame>
+        <frame z="19" tweenEasing="0" duration="5">
+          <transform x="-32.95" y="3.7" skX="-72.35" skY="-62.95" scX="1" scY="1.01" pX="-0.05" pY="0.05"/>
+        </frame>
+        <frame z="19" tweenEasing="0" duration="6">
+          <transform x="25.2" y="-42.05" skX="3.27" skY="-0.96" scX="1" scY="1" pX="-0.2" pY="0.05"/>
+        </frame>
+        <frame z="19" duration="1">
+          <transform x="50.1" y="-109.65" skX="3.27" skY="-0.96" scX="1" scY="1" pX="-0.15" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_xiayunbai" scale="1" offset="0">
+        <frame z="20" tweenEasing="0" duration="4">
+          <transform x="-16.7" y="-2.25" skX="-0.72" skY="-0.72" scX="1" scY="1.16" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="20" tweenEasing="0" duration="5">
+          <transform x="-15.6" y="-15.65" skX="-4.8" skY="-9.28" scX="1.04" scY="1.16" pX="0.05" pY="-0.05"/>
+        </frame>
+        <frame z="20" duration="1">
+          <transform x="-14.1" y="-32.65" skX="-10.25" skY="-20.12" scX="1.08" scY="1.15" pX="-0.1" pY="-0.05"/>
+        </frame>
+        <frame z="20" tweenEasing="0" duration="12">
+          <transform x="-27.85" y="-7.75" skX="20.52" skY="21.21" scX="1.02" scY="1.14" pX="0.05" pY="-0.1"/>
+        </frame>
+        <frame z="20" tweenEasing="0" duration="5">
+          <transform x="-27.8" y="1.8" skX="32.07" skY="21.21" scX="1.02" scY="1.16" pX="0" pY="0"/>
+        </frame>
+        <frame z="20" tweenEasing="0" duration="6">
+          <transform x="28.4" y="-44.1" skX="1.59" skY="-9.27" scX="1.02" scY="1.16" pX="0.15" pY="0"/>
+        </frame>
+        <frame z="20" duration="1">
+          <transform x="53.3" y="-111.7" skX="1.59" skY="-9.27" scX="1.02" scY="1.16" pX="0.1" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_shangshenga" scale="1" offset="0">
+        <frame z="21" tweenEasing="0" duration="4">
+          <transform x="-16.45" y="1.5" skX="-6.21" skY="-6.21" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="21" tweenEasing="0" duration="5">
+          <transform x="-15.05" y="-11.7" skX="-15.29" skY="-16.05" scX="1.05" scY="1.05" pX="0" pY="-0.1"/>
+        </frame>
+        <frame z="21" duration="1">
+          <transform x="-13.25" y="-28.25" skX="-26.79" skY="-28.55" scX="1.11" scY="1.11" pX="0" pY="0.2"/>
+        </frame>
+        <frame duration="25" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_shengaczz" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="22" tweenEasing="0" duration="12">
+          <transform x="-26.4" y="-13.15" skX="8.95" skY="8.95" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="22" tweenEasing="0" duration="5">
+          <transform x="-26.4" y="-3.55" skX="21.93" skY="21.93" scX="1.06" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="22" tweenEasing="0" duration="6">
+          <transform x="26.95" y="-49.45" skX="-8.55" skY="-8.55" scX="1.06" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="22" duration="1">
+          <transform x="51.85" y="-117.05" skX="-8.55" skY="-8.55" scX="1.06" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_gunzi" scale="1" offset="0">
+        <frame z="23" tweenEasing="0" duration="4">
+          <transform x="-42.6" y="-16.7" skX="37" skY="37" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="23" tweenEasing="0" duration="5">
+          <transform x="-44" y="-20.65" skX="18.27" skY="18.27" scX="1" scY="1.06" pX="0" pY="0.05"/>
+        </frame>
+        <frame z="23" duration="1">
+          <transform x="-45.8" y="-25.45" skX="-5.12" skY="-5.12" scX="1" scY="1.13" pX="0.05" pY="-0.05"/>
+        </frame>
+        <frame z="23" tweenEasing="0" duration="12">
+          <transform x="-18.75" y="-2.5" skX="-85.37" skY="-85.37" scX="1.39" scY="1.55" pX="0" pY="0.1"/>
+        </frame>
+        <frame z="23" tweenEasing="0" duration="5">
+          <transform x="-18.7" y="7.05" skX="-94.85" skY="-94.85" scX="1.39" scY="1.55" pX="-0.05" pY="0.05"/>
+        </frame>
+        <frame z="23" tweenEasing="0" duration="6">
+          <transform x="18.35" y="-41.4" skX="-29.01" skY="-29.01" scX="0.89" scY="1" pX="-0.1" pY="0"/>
+        </frame>
+        <frame z="23" duration="1">
+          <transform x="34.85" y="-116.45" skX="16.43" skY="16.43" scX="0.89" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_shoula0" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="24" tweenEasing="0" duration="12">
+          <transform x="-24.55" y="-16.65" skX="165.79" skY="165.79" scX="0.88" scY="0.77" pX="0" pY="0"/>
+        </frame>
+        <frame z="24" tweenEasing="0" duration="5">
+          <transform x="-24.55" y="-7.05" skX="165.79" skY="165.79" scX="0.88" scY="0.77" pX="-0.05" pY="0.05"/>
+        </frame>
+        <frame z="24" tweenEasing="0" duration="6">
+          <transform x="25.25" y="-52.25" skX="-149.29" skY="-149.29" scX="0.88" scY="0.77" pX="-0.1" pY="-0.05"/>
+        </frame>
+        <frame z="24" duration="1">
+          <transform x="47.45" y="-119.1" skX="-103.85" skY="-103.85" scX="0.88" scY="0.77" pX="-0.1" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_buzishangweijing" scale="1" offset="0">
+        <frame z="25" tweenEasing="0" duration="4">
+          <transform x="-19.7" y="-10.2" skX="-6.21" skY="-6.21" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="25" tweenEasing="0" duration="5">
+          <transform x="-19.65" y="-22.95" skX="-12.76" skY="-12.76" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" duration="1">
+          <transform x="-19.75" y="-38.9" skX="-20.93" skY="-20.93" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" tweenEasing="0" duration="12">
+          <transform x="-23.7" y="-15.95" skX="49.4" skY="49.4" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" tweenEasing="0" duration="5">
+          <transform x="-23.75" y="-6.45" skX="61.11" skY="61.11" scX="1.02" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" tweenEasing="0" duration="6">
+          <transform x="28.05" y="-53.3" skX="28.9" skY="28.9" scX="1.02" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" duration="1">
+          <transform x="52.95" y="-120.9" skX="28.9" skY="28.9" scX="1.02" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_jingjiana2" scale="1" offset="0">
+        <frame z="26" tweenEasing="0" duration="4">
+          <transform x="-11.7" y="-13.75" skX="-6.21" skY="-6.21" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="26" tweenEasing="0" duration="5">
+          <transform x="-12.3" y="-27.35" skX="-24.57" skY="-24.56" scX="1.13" scY="1" pX="0.05" pY="0"/>
+        </frame>
+        <frame z="26" duration="1">
+          <transform x="-13" y="-44.4" skX="-47.65" skY="-47.65" scX="1.29" scY="1" pX="0.05" pY="0.1"/>
+        </frame>
+        <frame z="26" tweenEasing="0" duration="12">
+          <transform x="-16.25" y="-11.35" skX="15.17" skY="15.17" scX="1" scY="1" pX="-0.05" pY="0"/>
+        </frame>
+        <frame z="26" tweenEasing="0" duration="5">
+          <transform x="-17.4" y="-0.45" skX="26.87" skY="26.87" scX="1" scY="1" pX="-0.1" pY="0.05"/>
+        </frame>
+        <frame z="26" tweenEasing="0" duration="6">
+          <transform x="34.55" y="-52.85" skX="22.67" skY="39.32" scX="1.04" scY="1" pX="0" pY="-0.1"/>
+        </frame>
+        <frame z="26" duration="1">
+          <transform x="59.45" y="-120.45" skX="22.67" skY="39.32" scX="1.04" scY="1" pX="0.05" pY="-0.15"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_jingjian" scale="1" offset="0">
+        <frame z="27" tweenEasing="0" duration="4">
+          <transform x="-13.1" y="-13.55" skX="-6.21" skY="-6.21" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="27" tweenEasing="0" duration="5">
+          <transform x="-13.65" y="-27.05" skX="-24.81" skY="-21.08" scX="1" scY="1" pX="-0.05" pY="0.05"/>
+        </frame>
+        <frame z="27" duration="1">
+          <transform x="-14.2" y="-43.8" skX="-48.2" skY="-39.99" scX="1.01" scY="1" pX="-0.1" pY="0.1"/>
+        </frame>
+        <frame z="27" tweenEasing="0" duration="12">
+          <transform x="-17.2" y="-12.4" skX="63.88" skY="63.88" scX="1" scY="1" pX="0" pY="0.1"/>
+        </frame>
+        <frame z="27" tweenEasing="0" duration="5">
+          <transform x="-18.15" y="-1.7" skX="75.58" skY="75.58" scX="1" scY="1" pX="0.05" pY="0.1"/>
+        </frame>
+        <frame z="27" tweenEasing="0" duration="6">
+          <transform x="33.65" y="-53.8" skX="28.05" skY="34.15" scX="1" scY="1.01" pX="-0.05" pY="0.1"/>
+        </frame>
+        <frame z="27" duration="1">
+          <transform x="58.55" y="-121.4" skX="28.05" skY="34.15" scX="1" scY="1.01" pX="-0.1" pY="0.15"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_zhouboaq" scale="1" offset="0">
+        <frame z="28" tweenEasing="0" duration="4">
+          <transform x="-12" y="-13.45" skX="-6.21" skY="-6.21" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="28" tweenEasing="0" duration="5">
+          <transform x="-12.5" y="-27.05" skX="-12.76" skY="-12.76" scX="1" scY="1" pX="-0.05" pY="0"/>
+        </frame>
+        <frame z="28" duration="1">
+          <transform x="-13.2" y="-44.05" skX="-20.93" skY="-20.93" scX="1" scY="1" pX="-0.05" pY="0"/>
+        </frame>
+        <frame z="28" tweenEasing="0" duration="12">
+          <transform x="-16.7" y="-11.45" skX="49.4" skY="49.4" scX="1" scY="1" pX="0.05" pY="0"/>
+        </frame>
+        <frame z="28" tweenEasing="0" duration="5">
+          <transform x="-17.8" y="-0.6" skX="61.11" skY="61.11" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="28" tweenEasing="0" duration="6">
+          <transform x="34.2" y="-52.9" skX="42.16" skY="42.16" scX="1" scY="1" pX="-0.05" pY="0"/>
+        </frame>
+        <frame z="28" duration="1">
+          <transform x="59.1" y="-120.5" skX="42.16" skY="42.16" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_toubua" scale="1" offset="0">
+        <frame z="29" tweenEasing="0" duration="4">
+          <transform x="-18.2" y="-11.65" skX="-6.21" skY="-6.21" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="29" tweenEasing="0" duration="5">
+          <transform x="-18.55" y="-24.55" skX="-15.79" skY="-15.79" scX="1" scY="1" pX="0.05" pY="0.05"/>
+        </frame>
+        <frame z="29" duration="1">
+          <transform x="-18.95" y="-40.7" skX="-27.91" skY="-27.91" scX="1" scY="1" pX="0.25" pY="0.1"/>
+        </frame>
+        <frame z="29" tweenEasing="0" duration="12">
+          <transform x="-18.55" y="-11.1" skX="49.4" skY="49.4" scX="1" scY="1" pX="0.05" pY="0.05"/>
+        </frame>
+        <frame z="29" tweenEasing="0" duration="5">
+          <transform x="-19.7" y="-0.65" skX="61.11" skY="61.11" scX="1" scY="1" pX="-0.05" pY="0.05"/>
+        </frame>
+        <frame z="29" tweenEasing="0" duration="6">
+          <transform x="29" y="-54.75" skX="23.71" skY="23.71" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="29" duration="1">
+          <transform x="53.9" y="-122.35" skX="11.76" skY="11.76" scX="1" scY="1" pX="0.05" pY="0.05"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="1" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_shoula1" scale="1" offset="0">
+        <frame z="30" tweenEasing="0" duration="4">
+          <transform x="-21.35" y="-7.85" skX="-77.91" skY="-77.91" scX="1" scY="1.45" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="30" tweenEasing="0" duration="5">
+          <transform x="-21.75" y="-19.35" skX="-95.79" skY="-94.29" scX="1" scY="1.48" pX="0.1" pY="0"/>
+        </frame>
+        <frame z="30" duration="1">
+          <transform x="-22.2" y="-33.9" skX="-118.36" skY="-115.03" scX="0.99" scY="1.53" pX="0.15" pY="0.1"/>
+        </frame>
+        <frame duration="25" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai16" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="31" tweenEasing="0" duration="3">
+          <transform x="12.65" y="11.6" skX="0" skY="0" scX="1.55" scY="1.89" pX="0" pY="0"/>
+        </frame>
+        <frame z="31" duration="1">
+          <transform x="22.1" y="16.35" skX="24.13" skY="29.41" scX="0.67" scY="1.06" pX="0.05" pY="-0.3"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="21" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai17" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="32" duration="3">
+          <transform x="19.8" y="7.35" skX="-9.21" skY="-9.21" scX="1.76" scY="1.76" pX="0" pY="0"/>
+        </frame>
+        <frame duration="22" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai168" scale="1" offset="0">
+        <frame duration="13" displayIndex="-1"/>
+        <frame z="33" duration="3">
+          <transform x="16.15" y="11.95" skX="-9.21" skY="-9.21" scX="1.76" scY="1.76" pX="0" pY="0"/>
+        </frame>
+        <frame duration="19" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai19" scale="1" offset="0">
+        <frame duration="16" displayIndex="-1"/>
+        <frame z="34" duration="3">
+          <transform x="14.45" y="11.25" skX="-9.21" skY="-9.21" scX="1.76" scY="1.76" pX="0" pY="0"/>
+        </frame>
+        <frame duration="16" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai20" scale="1" offset="0">
+        <frame duration="19" displayIndex="-1"/>
+        <frame z="35" duration="3">
+          <transform x="13.95" y="13.15" skX="-9.21" skY="-9.21" scX="1.76" scY="1.76" pX="0" pY="0"/>
+        </frame>
+        <frame duration="13" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai21" scale="1" offset="0">
+        <frame duration="22" displayIndex="-1"/>
+        <frame z="36" duration="3">
+          <transform x="15.35" y="14.85" skX="-9.21" skY="-9.21" scX="3.35" scY="3.35" pX="0" pY="0"/>
+        </frame>
+        <frame duration="10" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai22" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="37" tweenEasing="0" duration="7">
+          <transform x="28" y="18.65" skX="0" skY="0" scX="1.51" scY="1.51" pX="0" pY="0"/>
+        </frame>
+        <frame z="37" tweenEasing="0" duration="5">
+          <transform x="40.4" y="-15.05" skX="-97.77" skY="7.04" scX="0.99" scY="0.76" pX="0" pY="0"/>
+        </frame>
+        <frame z="37" duration="1">
+          <transform x="49.25" y="-39.15" skX="-167.72" skY="12.28" scX="0.62" scY="0.23" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="12" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai23" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="38" tweenEasing="0" duration="7">
+          <transform x="14.7" y="41.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="38" tweenEasing="0" duration="5">
+          <transform x="35.2" y="26.65" skX="104.82" skY="0" scX="1" scY="0.61" pX="0" pY="0"/>
+        </frame>
+        <frame z="38" duration="1">
+          <transform x="49.8" y="16.25" skX="180" skY="0" scX="1" scY="0.34" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="12" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai24" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="39" tweenEasing="0" duration="7">
+          <transform x="8.6" y="33.9" skX="-28.44" skY="-28.44" scX="1.35" scY="1.35" pX="0" pY="0"/>
+        </frame>
+        <frame z="39" tweenEasing="0" duration="5">
+          <transform x="-14.05" y="10" skX="-89.96" skY="15.05" scX="0.94" scY="1.02" pX="0" pY="0"/>
+        </frame>
+        <frame z="39" duration="1">
+          <transform x="-30.2" y="-7.1" skX="-133.73" skY="46.27" scX="0.64" scY="0.79" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="12" displayIndex="-1"/>
+      </timeline>
+      <timeline name="sunwukong_sucai25" scale="1" offset="0">
+        <frame duration="10" displayIndex="-1"/>
+        <frame z="40" tweenEasing="0" duration="7">
+          <transform x="-0.95" y="18.8" skX="-167.06" skY="12.94" scX="1.62" scY="1.62" pX="0" pY="0"/>
+        </frame>
+        <frame z="40" tweenEasing="0" duration="5">
+          <transform x="4.5" y="-17.75" skX="-85.69" skY="94.31" scX="1.18" scY="1.62" pX="0" pY="0"/>
+        </frame>
+        <frame z="40" duration="1">
+          <transform x="8.2" y="-43.9" skX="-27.28" skY="152.72" scX="0.86" scY="1.62" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame duration="12" displayIndex="-1"/>
+      </timeline>
+    </animation>
+    <animation name="rc_walk" fadeInTime="0" duration="9" scale="2.5" loop="0" tweenEasing="NaN">
+      <timeline name="图层 2" scale="1" offset="0">
+        <frame z="16" tweenEasing="0" duration="4">
+          <transform x="-4.9" y="25.25" skX="0" skY="180" scX="1.71" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="16" tweenEasing="0" duration="4">
+          <transform x="-4.9" y="25.25" skX="0" skY="180" scX="1.89" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="16" duration="1">
+          <transform x="-4.9" y="25.25" skX="0" skY="180" scX="1.71" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_shoula" scale="1" offset="0">
+        <frame z="17" tweenEasing="0" duration="4">
+          <transform x="10.4" y="-3.2" skX="135.11" skY="135.11" scX="0.86" scY="0.82" pX="-0.2" pY="0.15"/>
+        </frame>
+        <frame z="17" tweenEasing="0" duration="4">
+          <transform x="10.45" y="-3.25" skX="119.56" skY="116.88" scX="0.86" scY="0.82" pX="-0.15" pY="0.2"/>
+        </frame>
+        <frame z="17" duration="1">
+          <transform x="10.4" y="-3.2" skX="135.11" skY="135.11" scX="0.86" scY="0.82" pX="-0.2" pY="0.15"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_tuibua" scale="1" offset="0">
+        <frame z="18" tweenEasing="0" duration="4">
+          <transform x="9.5" y="11.15" skX="28.73" skY="30.24" scX="1" scY="0.91" pX="0.05" pY="0"/>
+        </frame>
+        <frame z="18" tweenEasing="0" duration="4">
+          <transform x="9.5" y="11.1" skX="21.23" skY="22.75" scX="1.04" scY="0.86" pX="0.15" pY="0.1"/>
+        </frame>
+        <frame z="18" duration="1">
+          <transform x="9.5" y="11.15" skX="28.73" skY="30.24" scX="1" scY="0.91" pX="0.05" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_tuizhizhyi" scale="1" offset="0">
+        <frame z="19" tweenEasing="0" duration="4">
+          <transform x="-1.65" y="9.35" skX="22.72" skY="18.49" scX="1" scY="1" pX="-0.1" pY="0.05"/>
+        </frame>
+        <frame z="19" tweenEasing="0" duration="4">
+          <transform x="-1.6" y="9.3" skX="29.06" skY="21.99" scX="1" scY="1.01" pX="-0.2" pY="0.1"/>
+        </frame>
+        <frame z="19" duration="1">
+          <transform x="-1.65" y="9.35" skX="22.72" skY="18.49" scX="1" scY="1" pX="-0.1" pY="0.05"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_xiayunbai" scale="1" offset="0">
+        <frame z="20" tweenEasing="0" duration="4">
+          <transform x="2.4" y="7.15" skX="1.59" skY="16.06" scX="1.1" scY="1.16" pX="0.1" pY="-0.05"/>
+        </frame>
+        <frame z="20" tweenEasing="0" duration="4">
+          <transform x="1.7" y="7.15" skX="16.21" skY="16.06" scX="1.14" scY="1.13" pX="0.1" pY="-0.1"/>
+        </frame>
+        <frame z="20" duration="1">
+          <transform x="2.4" y="7.15" skX="1.59" skY="16.06" scX="1.1" scY="1.16" pX="0.1" pY="-0.05"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_shengaczz" scale="1" offset="0">
+        <frame z="22" tweenEasing="0" duration="4">
+          <transform x="3.2" y="1.85" skX="3.65" skY="3.65" scX="1.06" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="22" tweenEasing="0" duration="4">
+          <transform x="3.2" y="1.85" skX="3.65" skY="6.15" scX="1.08" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="22" duration="1">
+          <transform x="3.2" y="1.85" skX="3.65" skY="3.65" scX="1.06" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_gunzi" scale="1" offset="0">
+        <frame z="23" tweenEasing="0" duration="4">
+          <transform x="1.3" y="-14.95" skX="28.63" skY="28.63" scX="0.89" scY="1" pX="-0.1" pY="0.1"/>
+        </frame>
+        <frame z="23" tweenEasing="0" duration="4">
+          <transform x="3" y="-14.3" skX="38.57" skY="38.57" scX="0.89" scY="1" pX="-0.15" pY="0.1"/>
+        </frame>
+        <frame z="23" duration="1">
+          <transform x="1.3" y="-14.95" skX="28.63" skY="28.63" scX="0.89" scY="1" pX="-0.1" pY="0.1"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_shoula0" scale="1" offset="0">
+        <frame z="24" tweenEasing="0" duration="4">
+          <transform x="-1.15" y="-2.1" skX="-91.65" skY="-91.65" scX="0.88" scY="0.83" pX="-0.2" pY="0"/>
+        </frame>
+        <frame z="24" tweenEasing="0" duration="4">
+          <transform x="-1.25" y="-1.95" skX="-83.66" skY="-83.66" scX="0.88" scY="0.83" pX="-0.15" pY="0"/>
+        </frame>
+        <frame z="24" duration="1">
+          <transform x="-1.15" y="-2.1" skX="-91.65" skY="-91.65" scX="0.88" scY="0.83" pX="-0.2" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_buzishangweijing" scale="1" offset="0">
+        <frame z="25" tweenEasing="0" duration="4">
+          <transform x="5.05" y="-1.65" skX="41.09" skY="41.09" scX="1.02" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" tweenEasing="0" duration="4">
+          <transform x="3.75" y="-3.05" skX="41.09" skY="43.73" scX="1.02" scY="1.16" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" duration="1">
+          <transform x="5.05" y="-1.65" skX="41.09" skY="41.09" scX="1.02" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_jingjiana2" scale="1" offset="0">
+        <frame z="26" tweenEasing="0" duration="4">
+          <transform x="9.55" y="-1.15" skX="7.37" skY="24.02" scX="1.04" scY="1" pX="0.05" pY="-0.1"/>
+        </frame>
+        <frame z="26" tweenEasing="0" duration="4">
+          <transform x="9.5" y="-1.15" skX="7.37" skY="3.49" scX="1" scY="1" pX="0.05" pY="-0.1"/>
+        </frame>
+        <frame z="26" duration="1">
+          <transform x="9.55" y="-1.15" skX="7.37" skY="24.02" scX="1.04" scY="1" pX="0.05" pY="-0.1"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_jingjian" scale="1" offset="0">
+        <frame z="27" tweenEasing="0" duration="4">
+          <transform x="8.45" y="-1.85" skX="12.76" skY="18.85" scX="1" scY="1.01" pX="-0.15" pY="0.15"/>
+        </frame>
+        <frame z="27" tweenEasing="0" duration="4">
+          <transform x="8.5" y="-1.95" skX="21.73" skY="27.83" scX="1.1" scY="0.91" pX="-0.15" pY="0.15"/>
+        </frame>
+        <frame z="27" duration="1">
+          <transform x="8.45" y="-1.85" skX="12.76" skY="18.85" scX="1" scY="1.01" pX="-0.15" pY="0.15"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_zhouboaq" scale="1" offset="0">
+        <frame z="28" tweenEasing="0" duration="4">
+          <transform x="9.2" y="-1.15" skX="26.86" skY="26.86" scX="1" scY="1" pX="0.05" pY="0.1"/>
+        </frame>
+        <frame z="28" tweenEasing="0" duration="4">
+          <transform x="9.2" y="-1.15" skX="26.86" skY="26.86" scX="1" scY="1" pX="0.05" pY="0.1"/>
+        </frame>
+        <frame z="28" duration="1">
+          <transform x="9.2" y="-1.15" skX="26.86" skY="26.86" scX="1" scY="1" pX="0.05" pY="0.1"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_toubua" scale="1" offset="0">
+        <frame z="29" tweenEasing="0" duration="4">
+          <transform x="6.3" y="-2.85" skX="20.24" skY="20.24" scX="1" scY="1" pX="0.05" pY="-0.05"/>
+        </frame>
+        <frame z="29" tweenEasing="0" duration="4">
+          <transform x="6.3" y="-2.85" skX="17.76" skY="17.76" scX="1" scY="1" pX="-0.05" pY="-0.1"/>
+        </frame>
+        <frame z="29" duration="1">
+          <transform x="6.3" y="-2.85" skX="20.24" skY="20.24" scX="1" scY="1" pX="0.05" pY="-0.05"/>
+        </frame>
+      </timeline>
+    </animation>
+    <animation name="lc_walk" fadeInTime="0" duration="9" scale="2.5" loop="0" tweenEasing="NaN">
+      <timeline name="图层 2" scale="1" offset="0">
+        <frame z="16" tweenEasing="0" duration="4">
+          <transform x="5.35" y="25.25" skX="0" skY="0" scX="1.71" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="16" tweenEasing="0" duration="4">
+          <transform x="5.35" y="25.25" skX="0" skY="0" scX="1.87" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="16" duration="1">
+          <transform x="5.35" y="25.25" skX="0" skY="0" scX="1.71" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_shoula" scale="1" offset="0">
+        <frame z="17" tweenEasing="0" duration="4">
+          <transform x="-8.85" y="-3.2" skX="-135.11" skY="44.89" scX="0.86" scY="0.82" pX="-0.2" pY="0.15"/>
+        </frame>
+        <frame z="17" tweenEasing="0" duration="4">
+          <transform x="-8.9" y="-3.25" skX="-119.56" skY="63.12" scX="0.86" scY="0.82" pX="-0.15" pY="0.25"/>
+        </frame>
+        <frame z="17" duration="1">
+          <transform x="-8.85" y="-3.2" skX="-135.11" skY="44.89" scX="0.86" scY="0.82" pX="-0.2" pY="0.15"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_tuibua" scale="1" offset="0">
+        <frame z="18" tweenEasing="0" duration="4">
+          <transform x="-7.95" y="11.15" skX="-28.73" skY="149.76" scX="1" scY="0.91" pX="0.1" pY="0"/>
+        </frame>
+        <frame z="18" tweenEasing="0" duration="4">
+          <transform x="-7.95" y="11.1" skX="-21.23" skY="157.25" scX="1.04" scY="0.86" pX="0.15" pY="0.1"/>
+        </frame>
+        <frame z="18" duration="1">
+          <transform x="-7.95" y="11.15" skX="-28.73" skY="149.76" scX="1" scY="0.91" pX="0.1" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_tuizhizhyi" scale="1" offset="0">
+        <frame z="19" tweenEasing="0" duration="4">
+          <transform x="3.2" y="9.35" skX="-22.72" skY="161.51" scX="1" scY="1" pX="-0.15" pY="0.05"/>
+        </frame>
+        <frame z="19" tweenEasing="0" duration="4">
+          <transform x="3.15" y="9.3" skX="-29.06" skY="158.01" scX="1" scY="1.01" pX="-0.25" pY="0.05"/>
+        </frame>
+        <frame z="19" duration="1">
+          <transform x="3.2" y="9.35" skX="-22.72" skY="161.51" scX="1" scY="1" pX="-0.15" pY="0.05"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_xiayunbai" scale="1" offset="0">
+        <frame z="20" tweenEasing="0" duration="4">
+          <transform x="-0.85" y="7.15" skX="-1.59" skY="163.94" scX="1.1" scY="1.16" pX="0.1" pY="-0.05"/>
+        </frame>
+        <frame z="20" tweenEasing="0" duration="4">
+          <transform x="-0.15" y="7.15" skX="-16.21" skY="163.94" scX="1.14" scY="1.13" pX="0.05" pY="-0.05"/>
+        </frame>
+        <frame z="20" duration="1">
+          <transform x="-0.85" y="7.15" skX="-1.59" skY="163.94" scX="1.1" scY="1.16" pX="0.1" pY="-0.05"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_shengaczz" scale="1" offset="0">
+        <frame z="22" tweenEasing="0" duration="4">
+          <transform x="-1.65" y="1.85" skX="-3.65" skY="176.35" scX="1.06" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="22" tweenEasing="0" duration="4">
+          <transform x="-1.65" y="1.85" skX="-3.65" skY="173.85" scX="1.08" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="22" duration="1">
+          <transform x="-1.65" y="1.85" skX="-3.65" skY="176.35" scX="1.06" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_gunzi" scale="1" offset="0">
+        <frame z="23" tweenEasing="0" duration="4">
+          <transform x="0.25" y="-14.95" skX="-28.63" skY="151.37" scX="0.89" scY="1" pX="-0.05" pY="0.05"/>
+        </frame>
+        <frame z="23" tweenEasing="0" duration="4">
+          <transform x="-1.45" y="-14.3" skX="-38.57" skY="141.43" scX="0.89" scY="1" pX="-0.1" pY="0.05"/>
+        </frame>
+        <frame z="23" duration="1">
+          <transform x="0.25" y="-14.95" skX="-28.63" skY="151.37" scX="0.89" scY="1" pX="-0.05" pY="0.05"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_shoula0" scale="1" offset="0">
+        <frame z="24" tweenEasing="0" duration="4">
+          <transform x="2.7" y="-2.1" skX="91.65" skY="-88.35" scX="0.88" scY="0.83" pX="-0.2" pY="0"/>
+        </frame>
+        <frame z="24" tweenEasing="0" duration="4">
+          <transform x="2.8" y="-1.95" skX="83.66" skY="-96.34" scX="0.88" scY="0.83" pX="-0.1" pY="0"/>
+        </frame>
+        <frame z="24" duration="1">
+          <transform x="2.7" y="-2.1" skX="91.65" skY="-88.35" scX="0.88" scY="0.83" pX="-0.2" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_buzishangweijing" scale="1" offset="0">
+        <frame z="25" tweenEasing="0" duration="4">
+          <transform x="-3.5" y="-1.65" skX="-41.09" skY="138.91" scX="1.02" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" tweenEasing="0" duration="4">
+          <transform x="-2.2" y="-3.05" skX="-41.09" skY="136.27" scX="1.02" scY="1.16" pX="0" pY="0"/>
+        </frame>
+        <frame z="25" duration="1">
+          <transform x="-3.5" y="-1.65" skX="-41.09" skY="138.91" scX="1.02" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_jingjiana2" scale="1" offset="0">
+        <frame z="26" tweenEasing="0" duration="4">
+          <transform x="-8" y="-1.15" skX="-7.37" skY="155.98" scX="1.04" scY="1" pX="0" pY="-0.05"/>
+        </frame>
+        <frame z="26" tweenEasing="0" duration="4">
+          <transform x="-7.95" y="-1.15" skX="-7.37" skY="176.51" scX="1" scY="1" pX="0" pY="-0.1"/>
+        </frame>
+        <frame z="26" duration="1">
+          <transform x="-8" y="-1.15" skX="-7.37" skY="155.98" scX="1.04" scY="1" pX="0" pY="-0.05"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_jingjian" scale="1" offset="0">
+        <frame z="27" tweenEasing="0" duration="4">
+          <transform x="-6.9" y="-1.85" skX="-12.76" skY="161.15" scX="1" scY="1.01" pX="-0.15" pY="0.15"/>
+        </frame>
+        <frame z="27" tweenEasing="0" duration="4">
+          <transform x="-6.95" y="-1.95" skX="-21.73" skY="152.17" scX="1.1" scY="0.91" pX="-0.15" pY="0.15"/>
+        </frame>
+        <frame z="27" duration="1">
+          <transform x="-6.9" y="-1.85" skX="-12.76" skY="161.15" scX="1" scY="1.01" pX="-0.15" pY="0.15"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_zhouboaq" scale="1" offset="0">
+        <frame z="28" tweenEasing="0" duration="4">
+          <transform x="-7.65" y="-1.15" skX="-26.86" skY="153.14" scX="1" scY="1" pX="0.05" pY="0.1"/>
+        </frame>
+        <frame z="28" tweenEasing="0" duration="4">
+          <transform x="-7.65" y="-1.15" skX="-26.86" skY="153.14" scX="1" scY="1" pX="0.05" pY="0.1"/>
+        </frame>
+        <frame z="28" duration="1">
+          <transform x="-7.65" y="-1.15" skX="-26.86" skY="153.14" scX="1" scY="1" pX="0.05" pY="0.1"/>
+        </frame>
+      </timeline>
+      <timeline name="sunwukong_toubua" scale="1" offset="0">
+        <frame z="29" tweenEasing="0" duration="4">
+          <transform x="-4.75" y="-2.85" skX="-20.24" skY="159.76" scX="1" scY="1" pX="0.05" pY="-0.05"/>
+        </frame>
+        <frame z="29" tweenEasing="0" duration="4">
+          <transform x="-4.75" y="-2.85" skX="-17.76" skY="162.24" scX="1" scY="1" pX="0" pY="-0.1"/>
+        </frame>
+        <frame z="29" duration="1">
+          <transform x="-4.75" y="-2.85" skX="-20.24" skY="159.76" scX="1" scY="1" pX="0.05" pY="-0.05"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+</dragonBones>

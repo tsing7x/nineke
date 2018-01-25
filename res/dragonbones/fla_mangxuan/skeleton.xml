@@ -1,0 +1,436 @@
+<dragonBones name="fla_mangxuan" frameRate="60" version="2.3">
+ <armature name="fla_mangxuan">
+  <bone name="mangxuan_xingxingss17">
+   <transform x="-69" y="38.75" skX="0" skY="0" scX="0.53" scY="0.53"/>
+  </bone>
+  <bone name="mangxuan_xingxingss16">
+   <transform x="19.1" y="77.3" skX="0" skY="0" scX="0.89" scY="0.89"/>
+  </bone>
+  <bone name="mangxuan_xingxingss15">
+   <transform x="-66.5" y="-48.75" skX="0" skY="0" scX="0.94" scY="0.94"/>
+  </bone>
+  <bone name="mangxuan_xingxingss14">
+   <transform x="-4.95" y="70.5" skX="0" skY="0" scX="0.23" scY="0.23"/>
+  </bone>
+  <bone name="mangxuan_xingxingss13">
+   <transform x="-48.45" y="76.5" skX="0" skY="0" scX="0.77" scY="0.77"/>
+  </bone>
+  <bone name="mangxuan_xingxingss12">
+   <transform x="101.65" y="35.95" skX="0" skY="0" scX="0.38" scY="0.38"/>
+  </bone>
+  <bone name="mangxuan_xingxingss11">
+   <transform x="32" y="-69.25" skX="0" skY="0" scX="0.94" scY="0.94"/>
+  </bone>
+  <bone name="mangxuan_xingxingss10">
+   <transform x="-76.5" y="-36.2" skX="0" skY="0" scX="0.94" scY="0.94"/>
+  </bone>
+  <bone name="mangxuan_xingxingss9">
+   <transform x="-82" y="6.8" skX="0" skY="0" scX="0.94" scY="0.94"/>
+  </bone>
+  <bone name="mangxuan_xingxingss8">
+   <transform x="63.55" y="40.75" skX="0" skY="0" scX="0.4" scY="0.4"/>
+  </bone>
+  <bone name="mangxuan_xingxingss7">
+   <transform x="-55.7" y="-68.8" skX="0" skY="0" scX="0.34" scY="0.34"/>
+  </bone>
+  <bone name="mangxuan_xingxingss6">
+   <transform x="51.5" y="-55.2" skX="0" skY="0" scX="0.32" scY="0.32"/>
+  </bone>
+  <bone name="mangxuan_xingxingss5">
+   <transform x="34.5" y="62.3" skX="0" skY="0" scX="0.58" scY="0.58"/>
+  </bone>
+  <bone name="mangxuan_xingxingss4">
+   <transform x="-89.7" y="-35.2" skX="0" skY="0" scX="0.46" scY="0.46"/>
+  </bone>
+  <bone name="mangxuan_xingxingss3">
+   <transform x="-78.4" y="52.3" skX="0" skY="0" scX="0.57" scY="0.57"/>
+  </bone>
+  <bone name="mangxuan_xingxingss2">
+   <transform x="1.55" y="-72.25" skX="0" skY="0" scX="0.4" scY="0.4"/>
+  </bone>
+  <bone name="mangxuan_xingxingss">
+   <transform x="79.55" y="-22.75" skX="0" skY="0" scX="0.52" scY="0.52"/>
+  </bone>
+  <bone name="mangxuan_xingxingss8ss">
+   <transform x="0.05" y="10.75" skX="0" skY="0" scX="5.77" scY="5.77"/>
+  </bone>
+  <bone name="mangxuan_xingxingssuu">
+   <transform x="0" y="0" skX="0" skY="0" scX="1.08" scY="1.08"/>
+  </bone>
+  <skin name="">
+   <slot name="mangxuan_xingxingssuu" parent="mangxuan_xingxingssuu" z="0">
+    <display name="元件 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="92.1" pY="81.95"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss8ss" parent="mangxuan_xingxingss8ss" z="1">
+    <display name="fla_mangxuan_hg" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="24" pY="24.5"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss" parent="mangxuan_xingxingss" z="2">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss2" parent="mangxuan_xingxingss2" z="3">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss3" parent="mangxuan_xingxingss3" z="4">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss4" parent="mangxuan_xingxingss4" z="5">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss5" parent="mangxuan_xingxingss5" z="6">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss6" parent="mangxuan_xingxingss6" z="7">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss7" parent="mangxuan_xingxingss7" z="8">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss8" parent="mangxuan_xingxingss8" z="9">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss9" parent="mangxuan_xingxingss9" z="10">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss10" parent="mangxuan_xingxingss10" z="11">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss11" parent="mangxuan_xingxingss11" z="12">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss12" parent="mangxuan_xingxingss12" z="13">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss13" parent="mangxuan_xingxingss13" z="14">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss14" parent="mangxuan_xingxingss14" z="15">
+    <display name="fla_mangxuan_hg" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="24" pY="24.5"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss15" parent="mangxuan_xingxingss15" z="16">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss16" parent="mangxuan_xingxingss16" z="17">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+   <slot name="mangxuan_xingxingss17" parent="mangxuan_xingxingss17" z="18">
+    <display name="fla_mangxuan_xingxingss" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="8.9" pY="8.9"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="play" fadeInTime="0" duration="77" scale="2.5" loop="0" tweenEasing="NaN">
+   <timeline name="mangxuan_xingxingssuu" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="36">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.08" scY="1.08" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="40">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.03" scY="1.03" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.08" scY="1.08" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="mangxuan_xingxingss8ss" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="36">
+     <transform x="0.05" y="10.75" skX="0" skY="0" scX="5.77" scY="5.77" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="40">
+     <transform x="0.05" y="10.75" skX="0" skY="0" scX="6.1" scY="6.1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="0.05" y="10.75" skX="0" skY="0" scX="5.77" scY="5.77" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="mangxuan_xingxingss" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="27">
+     <transform x="79.55" y="-22.75" skX="0" skY="0" scX="0.52" scY="0.52" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="23">
+     <transform x="100.65" y="-21.65" skX="0" skY="0" scX="0.47" scY="0.47" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="46" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="118.6" y="-20.75" skX="0" skY="0" scX="0.31" scY="0.31" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="20" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss2" scale="1" offset="0">
+    <frame duration="23" displayIndex="-1"/>
+    <frame z="3" tweenEasing="0" duration="36">
+     <transform x="1.55" y="-72.25" skX="0" skY="0" scX="0.4" scY="0.4" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-1.2" y="-104.65" skX="0" skY="0" scX="0.28" scY="0.28" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="17" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss3" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="13">
+     <transform x="-78.4" y="52.3" skX="0" skY="0" scX="0.57" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="10">
+     <transform x="-92.3" y="62.1" skX="0" skY="0" scX="0.57" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="-103" y="69.65" skX="0" skY="0" scX="0.26" scY="0.26" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="39" displayIndex="-1"/>
+    <frame z="4" tweenEasing="0" duration="13">
+     <transform x="-63.45" y="41.75" skX="0" skY="0" scX="0.57" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-77.35" y="51.55" skX="0" skY="0" scX="0.57" scY="0.57" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="mangxuan_xingxingss4" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="17">
+     <transform x="-89.7" y="-35.2" skX="0" skY="0" scX="0.46" scY="0.46" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="10">
+     <transform x="-101.55" y="-40.6" skX="0" skY="0" scX="0.37" scY="0.37" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="-108.5" y="-43.75" skX="0" skY="0" scX="0.31" scY="0.31" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="27" displayIndex="-1"/>
+    <frame z="5" tweenEasing="0" duration="21">
+     <transform x="-74.5" y="-28.25" skX="0" skY="0" scX="0.57" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="-89.05" y="-34.9" skX="0" skY="0" scX="0.46" scY="0.46" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="mangxuan_xingxingss5" scale="1" offset="0">
+    <frame duration="11" displayIndex="-1"/>
+    <frame z="6" tweenEasing="0" duration="28">
+     <transform x="34.5" y="62.3" skX="0" skY="0" scX="0.58" scY="0.58" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="23">
+     <transform x="50.7" y="87.85" skX="0" skY="0" scX="0.38" scY="0.38" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="64" y="108.85" skX="0" skY="0" scX="0.21" scY="0.21" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="14" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss6" scale="1" offset="0">
+    <frame duration="27" displayIndex="-1"/>
+    <frame z="7" tweenEasing="0" duration="36">
+     <transform x="51.5" y="-55.2" skX="0" skY="0" scX="0.32" scY="0.32" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="9">
+     <transform x="71.5" y="-72.8" skX="0" skY="0" scX="0.17" scY="0.17" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="76.5" y="-77.2" skX="0" skY="0" scX="0.14" scY="0.14" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss7" scale="1" offset="0">
+    <frame z="8" tweenEasing="0" duration="14">
+     <transform x="-55.7" y="-68.8" skX="0" skY="0" scX="0.34" scY="0.34" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="22">
+     <transform x="-61.85" y="-75.4" skX="0" skY="0" scX="0.3" scY="0.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="-71.5" y="-85.75" skX="0" skY="0" scX="0.25" scY="0.25" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="27" displayIndex="-1"/>
+    <frame z="8" tweenEasing="0" duration="12">
+     <transform x="-50" y="-62.75" skX="0" skY="0" scX="0.37" scY="0.37" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="-55.25" y="-68.35" skX="0" skY="0" scX="0.34" scY="0.34" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="mangxuan_xingxingss8" scale="1" offset="0">
+    <frame duration="15" displayIndex="-1"/>
+    <frame z="9" tweenEasing="0" duration="16">
+     <transform x="63.55" y="40.75" skX="0" skY="0" scX="0.4" scY="0.4" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="15">
+     <transform x="74.65" y="51.1" skX="0" skY="0" scX="0.29" scY="0.29" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="85.05" y="60.8" skX="0" skY="0" scX="0.19" scY="0.19" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="30" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss9" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="10" tweenEasing="0" duration="19">
+     <transform x="-82" y="6.8" skX="0" skY="0" scX="0.94" scY="0.94" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="9">
+     <transform x="-105.8" y="9.5" skX="0" skY="0" scX="0.56" scY="0.56" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="-117.05" y="10.8" skX="0" skY="0" scX="0.39" scY="0.39" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="1" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="36" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss10" scale="1" offset="0">
+    <frame duration="25" displayIndex="-1"/>
+    <frame z="11" tweenEasing="0" duration="16">
+     <transform x="-76.5" y="-36.2" skX="0" skY="0" scX="0.94" scY="0.94" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="17">
+     <transform x="-91.3" y="-43" skX="0" skY="0" scX="0.62" scY="0.62" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="-107.05" y="-50.2" skX="0" skY="0" scX="0.28" scY="0.28" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="1" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss11" scale="1" offset="0">
+    <frame duration="20" displayIndex="-1"/>
+    <frame z="12" tweenEasing="0" duration="33">
+     <transform x="32" y="-69.25" skX="0" skY="0" scX="0.94" scY="0.94" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="51.5" y="-97.75" skX="0" skY="0" scX="0.28" scY="0.28" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss12" scale="1" offset="0">
+    <frame z="13" tweenEasing="0" duration="8">
+     <transform x="101.65" y="35.95" skX="0" skY="0" scX="0.38" scY="0.38" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="21" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="1">
+     <transform x="109.05" y="38.8" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="38" displayIndex="-1"/>
+    <frame z="13" tweenEasing="0" duration="29">
+     <transform x="73.55" y="25.3" skX="0" skY="0" scX="0.94" scY="0.94" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="1">
+     <transform x="100.7" y="35.6" skX="0" skY="0" scX="0.4" scY="0.4" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="24" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="mangxuan_xingxingss13" scale="1" offset="0">
+    <frame z="14" tweenEasing="0" duration="17">
+     <transform x="-48.45" y="76.5" skX="0" skY="0" scX="0.77" scY="0.77" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="37" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="14" duration="1">
+     <transform x="-56.75" y="86.75" skX="0" skY="0" scX="0.67" scY="0.67" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="30" displayIndex="-1"/>
+    <frame z="14" tweenEasing="0" duration="28">
+     <transform x="-34.25" y="59" skX="0" skY="0" scX="0.94" scY="0.94" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" tweenEasing="0" duration="1">
+     <transform x="-47.95" y="75.9" skX="0" skY="0" scX="0.77" scY="0.77" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="39" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="mangxuan_xingxingss14" scale="1" offset="0">
+    <frame duration="16" displayIndex="-1"/>
+    <frame z="15" tweenEasing="0" duration="42">
+     <transform x="-4.95" y="70.5" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" duration="1">
+     <transform x="-4.7" y="116.75" skX="0" skY="0" scX="0.11" scY="0.11" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss15" scale="1" offset="0">
+    <frame duration="14" displayIndex="-1"/>
+    <frame z="16" tweenEasing="0" duration="33">
+     <transform x="-66.5" y="-48.75" skX="0" skY="0" scX="0.94" scY="0.94" pX="0" pY="0"/>
+    </frame>
+    <frame z="16" duration="1">
+     <transform x="-78" y="-61.75" skX="0" skY="0" scX="0.49" scY="0.49" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="29" displayIndex="-1"/>
+   </timeline>
+   <timeline name="mangxuan_xingxingss16" scale="1" offset="0">
+    <frame z="17" tweenEasing="0" duration="28">
+     <transform x="19.1" y="77.3" skX="0" skY="0" scX="0.89" scY="0.89" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="67" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="17" duration="1">
+     <transform x="22.5" y="94.35" skX="0" skY="0" scX="0.79" scY="0.79" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="34" displayIndex="-1"/>
+    <frame z="17" tweenEasing="0" duration="13">
+     <transform x="17.5" y="68.8" skX="0" skY="0" scX="0.94" scY="0.94" pX="0" pY="0"/>
+    </frame>
+    <frame z="17" tweenEasing="0" duration="1">
+     <transform x="19.05" y="76.7" skX="0" skY="0" scX="0.89" scY="0.89" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="69" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="mangxuan_xingxingss17" scale="1" offset="0">
+    <frame duration="24" displayIndex="-1"/>
+    <frame z="18" tweenEasing="0" duration="40">
+     <transform x="-69" y="38.75" skX="0" skY="0" scX="0.53" scY="0.53" pX="0" pY="0"/>
+    </frame>
+    <frame z="18" duration="1">
+     <transform x="-93" y="51.25" skX="0" skY="0" scX="0.13" scY="0.13" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

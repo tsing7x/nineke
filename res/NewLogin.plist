@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>NewLogin_dot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{63,954},{28,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{28,28}</string>
+			</dict>
+			<key>NewLogin_Facebook.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{248,647},{500,114}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{500,114}</string>
+			</dict>
+			<key>NewLogin_Help.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{35,954},{26,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{26,37}</string>
+			</dict>
+			<key>NewLogin_Loading.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,647},{305,245}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{306,246}</string>
+			</dict>
+			<key>NewLogin_LoginBackGround.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{641,644}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{642,644}</string>
+			</dict>
+			<key>NewLogin_Reward.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{609,879},{79,78}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{80,78}</string>
+			</dict>
+			<key>NewLogin_Visitor.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{248,763},{500,114}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{500,114}</string>
+			</dict>
+			<key>NewLogin_HelpBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{356,879},{84,91}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,91}</string>
+			</dict>
+			<key>NewLogin_HelpBgHigh.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{442,879},{84,91}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,91}</string>
+			</dict>
+			<key>NewLogin_HelpHigh.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,954},{32,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,43}</string>
+			</dict>
+			<key>Poker1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{248,879},{115,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{115,106}</string>
+			</dict>
+			<key>Poker2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{644,1},{143,138}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{143,138}</string>
+			</dict>
+			<key>Poker3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{528,879},{83,79}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{83,79}</string>
+			</dict>
+			<key>Poker4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{644,141},{136,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{136,128}</string>
+			</dict>
+			<key>float_poker_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{689,879},{56,55}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{56,56}</string>
+			</dict>
+			<key>update_proBar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{63,984},{36,12}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{36,12}</string>
+			</dict>
+			<key>update_proBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{93,954},{34,12}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,12}</string>
+			</dict>
+			<key>update_Prolight.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{101,978},{17,8}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{17,12}</string>
+			</dict>
+			<key>update_ProLines.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{93,968},{20,8}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{21,12}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>NewLogin.png</string>
+			<key>realTextureFileName</key>
+			<string>NewLogin.png</string>
+			<key>size</key>
+			<string>{788,998}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>788</integer>
+			<key>height</key>
+			<integer>998</integer>
+		</dict>
+	</dict>
+</plist>
